@@ -1,0 +1,1168 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "C7Junking14ViewController"
+provides-member:
+- ["C7Junking14ViewController", ""]
+provides-dynamic-lookup:
+- "startButton"
+- "scoreLabel"
+- "stopButton"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
+depends-top-level:
+- !private "UIInterfaceOrientation"
+- !private "&&"
+- !private "dispatch_get_main_queue"
+- !private "CMTime"
+- !private "=="
+- "AnyObject"
+- "UIViewController"
+- !private "-"
+- "UILabel"
+- !private "CGPoint"
+- "GPUImageView"
+- !private "NSBundle"
+- !private ">="
+- !private "NSURL"
+- !private "/"
+- !private "StringLiteralType"
+- !private "GPUImageMotionDetector"
+- !private "+="
+- "Int"
+- "CGRect"
+- !private "AVAudioPlayer"
+- "AVCaptureSessionPreset640x480"
+- "CGFloat"
+- !private "String"
+- "ViewController"
+- !private "dispatch_async"
+- "GPUImageVideoCamera"
+- !private "BooleanLiteralType"
+depends-member:
+- !private ["CSo13AVAudioPlayer", "init"]
+- !private ["CSo13AVAudioPlayer", "numberOfLoops"]
+- !private ["CSo13AVAudioPlayer", "prepareToPlay"]
+- !private ["PSo44AVCaptureAudioDataOutputSampleBufferDelegate", "addTarget"]
+- ["PSo44AVCaptureAudioDataOutputSampleBufferDelegate", "init"]
+- !private ["PSo44AVCaptureAudioDataOutputSampleBufferDelegate", "outputImageOrientation"]
+- !private ["PSo44AVCaptureAudioDataOutputSampleBufferDelegate", "startCameraCapture"]
+- ["OSC23AVCaptureDevicePosition", "Back"]
+- !private ["PSo44AVCaptureVideoDataOutputSampleBufferDelegate", "addTarget"]
+- ["PSo44AVCaptureVideoDataOutputSampleBufferDelegate", "init"]
+- !private ["PSo44AVCaptureVideoDataOutputSampleBufferDelegate", "outputImageOrientation"]
+- !private ["PSo44AVCaptureVideoDataOutputSampleBufferDelegate", "startCameraCapture"]
+- !private ["Ps16AbsoluteValuable", "IntegerLiteralType"]
+- !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "AVAudioPlayer"]
+- ["Ps9AnyObject", "AVCaptureSessionPreset640x480"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "GPUImageMotionDetector"]
+- ["Ps9AnyObject", "GPUImageVideoCamera"]
+- ["Ps9AnyObject", "GPUImageView"]
+- !private ["Ps9AnyObject", "NSBundle"]
+- !private ["Ps9AnyObject", "NSURL"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "UIInterfaceOrientation"]
+- !private ["Ps9AnyObject", "addSubview"]
+- !private ["Ps9AnyObject", "addTarget"]
+- ["Ps9AnyObject", "didReceiveMemoryWarning"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- !private ["Ps9AnyObject", "hidden"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "initCamera"]
+- !private ["Ps9AnyObject", "mainBundle"]
+- ["Ps9AnyObject", "minimumCount"]
+- ["Ps9AnyObject", "minimumDuration"]
+- !private ["Ps9AnyObject", "motionDetectionBlock"]
+- ["Ps9AnyObject", "motionDetectionCount"]
+- ["Ps9AnyObject", "motionIntensityThreshold"]
+- !private ["Ps9AnyObject", "numberOfLoops"]
+- !private ["Ps9AnyObject", "outputImageOrientation"]
+- !private ["Ps9AnyObject", "pathForResource"]
+- ["Ps9AnyObject", "playCoinSound"]
+- !private ["Ps9AnyObject", "prepareToPlay"]
+- ["Ps9AnyObject", "scoreLabel"]
+- ["Ps9AnyObject", "startButton"]
+- !private ["Ps9AnyObject", "startCameraCapture"]
+- ["Ps9AnyObject", "startFrameTime"]
+- ["Ps9AnyObject", "stopButton"]
+- !private ["Ps9AnyObject", "text"]
+- ["Ps9AnyObject", "throwEventDetected"]
+- ["Ps9AnyObject", "totalScore"]
+- ["Ps9AnyObject", "videoCamera"]
+- ["Ps9AnyObject", "videoView"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- ["VSC6CGRect", "init"]
+- !private ["VSC6CMTime", "value"]
+- !private ["Ps11CVarArgType", "AVAudioPlayer"]
+- ["Ps11CVarArgType", "AVCaptureSessionPreset640x480"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- ["Ps11CVarArgType", "CGRect"]
+- !private ["Ps11CVarArgType", "GPUImageMotionDetector"]
+- ["Ps11CVarArgType", "GPUImageVideoCamera"]
+- ["Ps11CVarArgType", "GPUImageView"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "NSBundle"]
+- !private ["Ps11CVarArgType", "NSURL"]
+- !private ["Ps11CVarArgType", "Stride"]
+- !private ["Ps11CVarArgType", "String"]
+- !private ["Ps11CVarArgType", "UIInterfaceOrientation"]
+- !private ["Ps11CVarArgType", "addSubview"]
+- !private ["Ps11CVarArgType", "addTarget"]
+- ["Ps11CVarArgType", "didReceiveMemoryWarning"]
+- !private ["Ps11CVarArgType", "dispatch_async"]
+- !private ["Ps11CVarArgType", "dispatch_get_main_queue"]
+- !private ["Ps11CVarArgType", "hidden"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "initCamera"]
+- !private ["Ps11CVarArgType", "mainBundle"]
+- ["Ps11CVarArgType", "minimumCount"]
+- ["Ps11CVarArgType", "minimumDuration"]
+- !private ["Ps11CVarArgType", "motionDetectionBlock"]
+- ["Ps11CVarArgType", "motionDetectionCount"]
+- ["Ps11CVarArgType", "motionIntensityThreshold"]
+- !private ["Ps11CVarArgType", "numberOfLoops"]
+- !private ["Ps11CVarArgType", "outputImageOrientation"]
+- !private ["Ps11CVarArgType", "pathForResource"]
+- ["Ps11CVarArgType", "playCoinSound"]
+- !private ["Ps11CVarArgType", "prepareToPlay"]
+- ["Ps11CVarArgType", "scoreLabel"]
+- ["Ps11CVarArgType", "startButton"]
+- !private ["Ps11CVarArgType", "startCameraCapture"]
+- ["Ps11CVarArgType", "startFrameTime"]
+- ["Ps11CVarArgType", "stopButton"]
+- !private ["Ps11CVarArgType", "text"]
+- ["Ps11CVarArgType", "throwEventDetected"]
+- ["Ps11CVarArgType", "totalScore"]
+- ["Ps11CVarArgType", "videoCamera"]
+- ["Ps11CVarArgType", "videoView"]
+- !private ["Ps11CVarArgType", "view"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "AVAudioPlayer"]
+- ["Ps28CustomDebugStringConvertible", "AVCaptureSessionPreset640x480"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "GPUImageMotionDetector"]
+- ["Ps28CustomDebugStringConvertible", "GPUImageVideoCamera"]
+- ["Ps28CustomDebugStringConvertible", "GPUImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "NSBundle"]
+- !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
+- !private ["Ps28CustomDebugStringConvertible", "UIInterfaceOrientation"]
+- !private ["Ps28CustomDebugStringConvertible", "addSubview"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps28CustomDebugStringConvertible", "hidden"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "initCamera"]
+- !private ["Ps28CustomDebugStringConvertible", "mainBundle"]
+- ["Ps28CustomDebugStringConvertible", "minimumCount"]
+- ["Ps28CustomDebugStringConvertible", "minimumDuration"]
+- !private ["Ps28CustomDebugStringConvertible", "motionDetectionBlock"]
+- ["Ps28CustomDebugStringConvertible", "motionDetectionCount"]
+- ["Ps28CustomDebugStringConvertible", "motionIntensityThreshold"]
+- !private ["Ps28CustomDebugStringConvertible", "numberOfLoops"]
+- !private ["Ps28CustomDebugStringConvertible", "outputImageOrientation"]
+- !private ["Ps28CustomDebugStringConvertible", "pathForResource"]
+- ["Ps28CustomDebugStringConvertible", "playCoinSound"]
+- !private ["Ps28CustomDebugStringConvertible", "prepareToPlay"]
+- ["Ps28CustomDebugStringConvertible", "scoreLabel"]
+- ["Ps28CustomDebugStringConvertible", "startButton"]
+- !private ["Ps28CustomDebugStringConvertible", "startCameraCapture"]
+- ["Ps28CustomDebugStringConvertible", "startFrameTime"]
+- ["Ps28CustomDebugStringConvertible", "stopButton"]
+- !private ["Ps28CustomDebugStringConvertible", "text"]
+- ["Ps28CustomDebugStringConvertible", "throwEventDetected"]
+- ["Ps28CustomDebugStringConvertible", "totalScore"]
+- ["Ps28CustomDebugStringConvertible", "videoCamera"]
+- ["Ps28CustomDebugStringConvertible", "videoView"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "AVAudioPlayer"]
+- ["Ps23CustomStringConvertible", "AVCaptureSessionPreset640x480"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "GPUImageMotionDetector"]
+- ["Ps23CustomStringConvertible", "GPUImageVideoCamera"]
+- ["Ps23CustomStringConvertible", "GPUImageView"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "NSBundle"]
+- !private ["Ps23CustomStringConvertible", "NSURL"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "String"]
+- !private ["Ps23CustomStringConvertible", "UIInterfaceOrientation"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addSubview"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
+- !private ["Ps23CustomStringConvertible", "dispatch_async"]
+- !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
+- !private ["Ps23CustomStringConvertible", "hidden"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "initCamera"]
+- !private ["Ps23CustomStringConvertible", "mainBundle"]
+- ["Ps23CustomStringConvertible", "minimumCount"]
+- ["Ps23CustomStringConvertible", "minimumDuration"]
+- !private ["Ps23CustomStringConvertible", "motionDetectionBlock"]
+- ["Ps23CustomStringConvertible", "motionDetectionCount"]
+- ["Ps23CustomStringConvertible", "motionIntensityThreshold"]
+- !private ["Ps23CustomStringConvertible", "numberOfLoops"]
+- !private ["Ps23CustomStringConvertible", "outputImageOrientation"]
+- !private ["Ps23CustomStringConvertible", "pathForResource"]
+- ["Ps23CustomStringConvertible", "playCoinSound"]
+- !private ["Ps23CustomStringConvertible", "prepareToPlay"]
+- ["Ps23CustomStringConvertible", "scoreLabel"]
+- ["Ps23CustomStringConvertible", "startButton"]
+- !private ["Ps23CustomStringConvertible", "startCameraCapture"]
+- ["Ps23CustomStringConvertible", "startFrameTime"]
+- ["Ps23CustomStringConvertible", "stopButton"]
+- !private ["Ps23CustomStringConvertible", "text"]
+- ["Ps23CustomStringConvertible", "throwEventDetected"]
+- ["Ps23CustomStringConvertible", "totalScore"]
+- ["Ps23CustomStringConvertible", "videoCamera"]
+- ["Ps23CustomStringConvertible", "videoView"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "AVAudioPlayer"]
+- ["Ps9Equatable", "AVCaptureSessionPreset640x480"]
+- ["Ps9Equatable", "Back"]
+- !private ["Ps9Equatable", "CGFloat"]
+- ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "GPUImageMotionDetector"]
+- ["Ps9Equatable", "GPUImageVideoCamera"]
+- ["Ps9Equatable", "GPUImageView"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "NSBundle"]
+- !private ["Ps9Equatable", "NSURL"]
+- !private ["Ps9Equatable", "Portrait"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "String"]
+- !private ["Ps9Equatable", "UIInterfaceOrientation"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addSubview"]
+- !private ["Ps9Equatable", "addTarget"]
+- ["Ps9Equatable", "didReceiveMemoryWarning"]
+- !private ["Ps9Equatable", "dispatch_async"]
+- !private ["Ps9Equatable", "dispatch_get_main_queue"]
+- !private ["Ps9Equatable", "hidden"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "initCamera"]
+- !private ["Ps9Equatable", "mainBundle"]
+- ["Ps9Equatable", "minimumCount"]
+- ["Ps9Equatable", "minimumDuration"]
+- !private ["Ps9Equatable", "motionDetectionBlock"]
+- ["Ps9Equatable", "motionDetectionCount"]
+- ["Ps9Equatable", "motionIntensityThreshold"]
+- !private ["Ps9Equatable", "numberOfLoops"]
+- !private ["Ps9Equatable", "outputImageOrientation"]
+- !private ["Ps9Equatable", "pathForResource"]
+- ["Ps9Equatable", "playCoinSound"]
+- !private ["Ps9Equatable", "prepareToPlay"]
+- ["Ps9Equatable", "scoreLabel"]
+- ["Ps9Equatable", "startButton"]
+- !private ["Ps9Equatable", "startCameraCapture"]
+- ["Ps9Equatable", "startFrameTime"]
+- ["Ps9Equatable", "stopButton"]
+- !private ["Ps9Equatable", "text"]
+- ["Ps9Equatable", "throwEventDetected"]
+- ["Ps9Equatable", "totalScore"]
+- !private ["Ps9Equatable", "value"]
+- ["Ps9Equatable", "videoCamera"]
+- ["Ps9Equatable", "videoView"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps23FloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps23FloatLiteralConvertible", "Stride"]
+- !private ["Ps23FloatLiteralConvertible", "init"]
+- !private ["Ps17FloatingPointType", "IntegerLiteralType"]
+- !private ["Ps17FloatingPointType", "Stride"]
+- !private ["Ps17FloatingPointType", "init"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["CSo19GPUImageFilterGroup", "addTarget"]
+- !private ["CSo19GPUImageFilterGroup", "init"]
+- !private ["CSo19GPUImageFilterGroup", "motionDetectionBlock"]
+- !private ["PSo13GPUImageInput", "addTarget"]
+- !private ["PSo13GPUImageInput", "hidden"]
+- ["PSo13GPUImageInput", "init"]
+- !private ["PSo13GPUImageInput", "motionDetectionBlock"]
+- !private ["CSo22GPUImageMotionDetector", "addTarget"]
+- !private ["CSo22GPUImageMotionDetector", "init"]
+- !private ["CSo22GPUImageMotionDetector", "motionDetectionBlock"]
+- !private ["CSo14GPUImageOutput", "addTarget"]
+- ["CSo14GPUImageOutput", "init"]
+- !private ["CSo14GPUImageOutput", "motionDetectionBlock"]
+- !private ["CSo14GPUImageOutput", "outputImageOrientation"]
+- !private ["CSo14GPUImageOutput", "startCameraCapture"]
+- !private ["CSo19GPUImageVideoCamera", "addTarget"]
+- ["CSo19GPUImageVideoCamera", "init"]
+- !private ["CSo19GPUImageVideoCamera", "outputImageOrientation"]
+- !private ["CSo19GPUImageVideoCamera", "startCameraCapture"]
+- !private ["CSo12GPUImageView", "hidden"]
+- ["CSo12GPUImageView", "init"]
+- !private ["Ps8Hashable", "AVAudioPlayer"]
+- ["Ps8Hashable", "AVCaptureSessionPreset640x480"]
+- ["Ps8Hashable", "Back"]
+- !private ["Ps8Hashable", "CGFloat"]
+- ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "GPUImageMotionDetector"]
+- ["Ps8Hashable", "GPUImageVideoCamera"]
+- ["Ps8Hashable", "GPUImageView"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "NSBundle"]
+- !private ["Ps8Hashable", "NSURL"]
+- !private ["Ps8Hashable", "Portrait"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "String"]
+- !private ["Ps8Hashable", "UIInterfaceOrientation"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addSubview"]
+- !private ["Ps8Hashable", "addTarget"]
+- ["Ps8Hashable", "didReceiveMemoryWarning"]
+- !private ["Ps8Hashable", "dispatch_async"]
+- !private ["Ps8Hashable", "dispatch_get_main_queue"]
+- !private ["Ps8Hashable", "hidden"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "initCamera"]
+- !private ["Ps8Hashable", "mainBundle"]
+- ["Ps8Hashable", "minimumCount"]
+- ["Ps8Hashable", "minimumDuration"]
+- !private ["Ps8Hashable", "motionDetectionBlock"]
+- ["Ps8Hashable", "motionDetectionCount"]
+- ["Ps8Hashable", "motionIntensityThreshold"]
+- !private ["Ps8Hashable", "numberOfLoops"]
+- !private ["Ps8Hashable", "outputImageOrientation"]
+- !private ["Ps8Hashable", "pathForResource"]
+- ["Ps8Hashable", "playCoinSound"]
+- !private ["Ps8Hashable", "prepareToPlay"]
+- ["Ps8Hashable", "scoreLabel"]
+- ["Ps8Hashable", "startButton"]
+- !private ["Ps8Hashable", "startCameraCapture"]
+- ["Ps8Hashable", "startFrameTime"]
+- ["Ps8Hashable", "stopButton"]
+- !private ["Ps8Hashable", "text"]
+- ["Ps8Hashable", "throwEventDetected"]
+- ["Ps8Hashable", "totalScore"]
+- ["Ps8Hashable", "videoCamera"]
+- ["Ps8Hashable", "videoView"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Stride"]
+- !private ["Ps25IntegerLiteralConvertible", "init"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["CSo8NSBundle", "mainBundle"]
+- !private ["CSo8NSBundle", "pathForResource"]
+- !private ["PSo8NSCoding", "AVAudioPlayer"]
+- ["PSo8NSCoding", "AVCaptureSessionPreset640x480"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "GPUImageMotionDetector"]
+- ["PSo8NSCoding", "GPUImageVideoCamera"]
+- ["PSo8NSCoding", "GPUImageView"]
+- !private ["PSo8NSCoding", "NSBundle"]
+- !private ["PSo8NSCoding", "NSURL"]
+- !private ["PSo8NSCoding", "String"]
+- !private ["PSo8NSCoding", "UIInterfaceOrientation"]
+- !private ["PSo8NSCoding", "addSubview"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- !private ["PSo8NSCoding", "dispatch_async"]
+- !private ["PSo8NSCoding", "dispatch_get_main_queue"]
+- !private ["PSo8NSCoding", "hidden"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "initCamera"]
+- ["PSo8NSCoding", "minimumCount"]
+- ["PSo8NSCoding", "minimumDuration"]
+- ["PSo8NSCoding", "motionDetectionCount"]
+- ["PSo8NSCoding", "motionIntensityThreshold"]
+- ["PSo8NSCoding", "playCoinSound"]
+- ["PSo8NSCoding", "scoreLabel"]
+- ["PSo8NSCoding", "startButton"]
+- ["PSo8NSCoding", "startFrameTime"]
+- ["PSo8NSCoding", "stopButton"]
+- !private ["PSo8NSCoding", "text"]
+- ["PSo8NSCoding", "throwEventDetected"]
+- ["PSo8NSCoding", "totalScore"]
+- ["PSo8NSCoding", "videoCamera"]
+- ["PSo8NSCoding", "videoView"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "AVAudioPlayer"]
+- ["PSo26NSExtensionRequestHandling", "AVCaptureSessionPreset640x480"]
+- !private ["PSo26NSExtensionRequestHandling", "CGFloat"]
+- ["PSo26NSExtensionRequestHandling", "CGRect"]
+- !private ["PSo26NSExtensionRequestHandling", "GPUImageMotionDetector"]
+- ["PSo26NSExtensionRequestHandling", "GPUImageVideoCamera"]
+- ["PSo26NSExtensionRequestHandling", "GPUImageView"]
+- !private ["PSo26NSExtensionRequestHandling", "NSBundle"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
+- !private ["PSo26NSExtensionRequestHandling", "UIInterfaceOrientation"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_async"]
+- !private ["PSo26NSExtensionRequestHandling", "dispatch_get_main_queue"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "initCamera"]
+- ["PSo26NSExtensionRequestHandling", "minimumCount"]
+- ["PSo26NSExtensionRequestHandling", "minimumDuration"]
+- ["PSo26NSExtensionRequestHandling", "motionDetectionCount"]
+- ["PSo26NSExtensionRequestHandling", "motionIntensityThreshold"]
+- ["PSo26NSExtensionRequestHandling", "playCoinSound"]
+- ["PSo26NSExtensionRequestHandling", "scoreLabel"]
+- ["PSo26NSExtensionRequestHandling", "startButton"]
+- ["PSo26NSExtensionRequestHandling", "startFrameTime"]
+- ["PSo26NSExtensionRequestHandling", "stopButton"]
+- ["PSo26NSExtensionRequestHandling", "throwEventDetected"]
+- ["PSo26NSExtensionRequestHandling", "totalScore"]
+- ["PSo26NSExtensionRequestHandling", "videoCamera"]
+- ["PSo26NSExtensionRequestHandling", "videoView"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["CSo8NSObject", "AVAudioPlayer"]
+- ["CSo8NSObject", "AVCaptureSessionPreset640x480"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "CMTime"]
+- !private ["CSo8NSObject", "GPUImageMotionDetector"]
+- ["CSo8NSObject", "GPUImageVideoCamera"]
+- ["CSo8NSObject", "GPUImageView"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSBundle"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIInterfaceOrientation"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "addTarget"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- !private ["CSo8NSObject", "hidden"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initCamera"]
+- !private ["CSo8NSObject", "mainBundle"]
+- ["CSo8NSObject", "minimumCount"]
+- ["CSo8NSObject", "minimumDuration"]
+- !private ["CSo8NSObject", "motionDetectionBlock"]
+- ["CSo8NSObject", "motionDetectionCount"]
+- ["CSo8NSObject", "motionIntensityThreshold"]
+- !private ["CSo8NSObject", "numberOfLoops"]
+- !private ["CSo8NSObject", "outputImageOrientation"]
+- !private ["CSo8NSObject", "pathForResource"]
+- ["CSo8NSObject", "playCoinSound"]
+- !private ["CSo8NSObject", "prepareToPlay"]
+- ["CSo8NSObject", "scoreLabel"]
+- ["CSo8NSObject", "startButton"]
+- !private ["CSo8NSObject", "startCameraCapture"]
+- ["CSo8NSObject", "startFrameTime"]
+- ["CSo8NSObject", "stopButton"]
+- !private ["CSo8NSObject", "text"]
+- ["CSo8NSObject", "throwEventDetected"]
+- ["CSo8NSObject", "totalScore"]
+- ["CSo8NSObject", "videoCamera"]
+- ["CSo8NSObject", "videoView"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "AVAudioPlayer"]
+- ["PSo16NSObjectProtocol", "AVCaptureSessionPreset640x480"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "GPUImageMotionDetector"]
+- ["PSo16NSObjectProtocol", "GPUImageVideoCamera"]
+- ["PSo16NSObjectProtocol", "GPUImageView"]
+- !private ["PSo16NSObjectProtocol", "NSBundle"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "String"]
+- !private ["PSo16NSObjectProtocol", "UIInterfaceOrientation"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "initCamera"]
+- !private ["PSo16NSObjectProtocol", "mainBundle"]
+- ["PSo16NSObjectProtocol", "minimumCount"]
+- ["PSo16NSObjectProtocol", "minimumDuration"]
+- !private ["PSo16NSObjectProtocol", "motionDetectionBlock"]
+- ["PSo16NSObjectProtocol", "motionDetectionCount"]
+- ["PSo16NSObjectProtocol", "motionIntensityThreshold"]
+- !private ["PSo16NSObjectProtocol", "numberOfLoops"]
+- !private ["PSo16NSObjectProtocol", "outputImageOrientation"]
+- !private ["PSo16NSObjectProtocol", "pathForResource"]
+- ["PSo16NSObjectProtocol", "playCoinSound"]
+- !private ["PSo16NSObjectProtocol", "prepareToPlay"]
+- ["PSo16NSObjectProtocol", "scoreLabel"]
+- ["PSo16NSObjectProtocol", "startButton"]
+- !private ["PSo16NSObjectProtocol", "startCameraCapture"]
+- ["PSo16NSObjectProtocol", "startFrameTime"]
+- ["PSo16NSObjectProtocol", "stopButton"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- ["PSo16NSObjectProtocol", "throwEventDetected"]
+- ["PSo16NSObjectProtocol", "totalScore"]
+- ["PSo16NSObjectProtocol", "videoCamera"]
+- ["PSo16NSObjectProtocol", "videoView"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo5NSURL", "init"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- ["Ps16RawRepresentable", "Back"]
+- !private ["Ps16RawRepresentable", "Portrait"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Stride"]
+- !private ["Ps16SignedNumberType", "init"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "hidden"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "AVAudioPlayer"]
+- ["PSo21UIAppearanceContainer", "AVCaptureSessionPreset640x480"]
+- !private ["PSo21UIAppearanceContainer", "CGFloat"]
+- ["PSo21UIAppearanceContainer", "CGRect"]
+- !private ["PSo21UIAppearanceContainer", "GPUImageMotionDetector"]
+- ["PSo21UIAppearanceContainer", "GPUImageVideoCamera"]
+- ["PSo21UIAppearanceContainer", "GPUImageView"]
+- !private ["PSo21UIAppearanceContainer", "NSBundle"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- !private ["PSo21UIAppearanceContainer", "String"]
+- !private ["PSo21UIAppearanceContainer", "UIInterfaceOrientation"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_async"]
+- !private ["PSo21UIAppearanceContainer", "dispatch_get_main_queue"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "initCamera"]
+- ["PSo21UIAppearanceContainer", "minimumCount"]
+- ["PSo21UIAppearanceContainer", "minimumDuration"]
+- ["PSo21UIAppearanceContainer", "motionDetectionCount"]
+- ["PSo21UIAppearanceContainer", "motionIntensityThreshold"]
+- ["PSo21UIAppearanceContainer", "playCoinSound"]
+- ["PSo21UIAppearanceContainer", "scoreLabel"]
+- ["PSo21UIAppearanceContainer", "startButton"]
+- ["PSo21UIAppearanceContainer", "startFrameTime"]
+- ["PSo21UIAppearanceContainer", "stopButton"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- ["PSo21UIAppearanceContainer", "throwEventDetected"]
+- ["PSo21UIAppearanceContainer", "totalScore"]
+- ["PSo21UIAppearanceContainer", "videoCamera"]
+- ["PSo21UIAppearanceContainer", "videoView"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "AVAudioPlayer"]
+- ["PSo18UIContentContainer", "AVCaptureSessionPreset640x480"]
+- !private ["PSo18UIContentContainer", "CGFloat"]
+- ["PSo18UIContentContainer", "CGRect"]
+- !private ["PSo18UIContentContainer", "GPUImageMotionDetector"]
+- ["PSo18UIContentContainer", "GPUImageVideoCamera"]
+- ["PSo18UIContentContainer", "GPUImageView"]
+- !private ["PSo18UIContentContainer", "NSBundle"]
+- !private ["PSo18UIContentContainer", "NSURL"]
+- !private ["PSo18UIContentContainer", "String"]
+- !private ["PSo18UIContentContainer", "UIInterfaceOrientation"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- !private ["PSo18UIContentContainer", "dispatch_async"]
+- !private ["PSo18UIContentContainer", "dispatch_get_main_queue"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "initCamera"]
+- ["PSo18UIContentContainer", "minimumCount"]
+- ["PSo18UIContentContainer", "minimumDuration"]
+- ["PSo18UIContentContainer", "motionDetectionCount"]
+- ["PSo18UIContentContainer", "motionIntensityThreshold"]
+- ["PSo18UIContentContainer", "playCoinSound"]
+- ["PSo18UIContentContainer", "scoreLabel"]
+- ["PSo18UIContentContainer", "startButton"]
+- ["PSo18UIContentContainer", "startFrameTime"]
+- ["PSo18UIContentContainer", "stopButton"]
+- ["PSo18UIContentContainer", "throwEventDetected"]
+- ["PSo18UIContentContainer", "totalScore"]
+- ["PSo18UIContentContainer", "videoCamera"]
+- ["PSo18UIContentContainer", "videoView"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "hidden"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "hidden"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "AVAudioPlayer"]
+- ["PSo18UIFocusEnvironment", "AVCaptureSessionPreset640x480"]
+- !private ["PSo18UIFocusEnvironment", "CGFloat"]
+- ["PSo18UIFocusEnvironment", "CGRect"]
+- !private ["PSo18UIFocusEnvironment", "GPUImageMotionDetector"]
+- ["PSo18UIFocusEnvironment", "GPUImageVideoCamera"]
+- ["PSo18UIFocusEnvironment", "GPUImageView"]
+- !private ["PSo18UIFocusEnvironment", "NSBundle"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- !private ["PSo18UIFocusEnvironment", "String"]
+- !private ["PSo18UIFocusEnvironment", "UIInterfaceOrientation"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_async"]
+- !private ["PSo18UIFocusEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "initCamera"]
+- ["PSo18UIFocusEnvironment", "minimumCount"]
+- ["PSo18UIFocusEnvironment", "minimumDuration"]
+- ["PSo18UIFocusEnvironment", "motionDetectionCount"]
+- ["PSo18UIFocusEnvironment", "motionIntensityThreshold"]
+- ["PSo18UIFocusEnvironment", "playCoinSound"]
+- ["PSo18UIFocusEnvironment", "scoreLabel"]
+- ["PSo18UIFocusEnvironment", "startButton"]
+- ["PSo18UIFocusEnvironment", "startFrameTime"]
+- ["PSo18UIFocusEnvironment", "stopButton"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- ["PSo18UIFocusEnvironment", "throwEventDetected"]
+- ["PSo18UIFocusEnvironment", "totalScore"]
+- ["PSo18UIFocusEnvironment", "videoCamera"]
+- ["PSo18UIFocusEnvironment", "videoView"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["OSC22UIInterfaceOrientation", "Portrait"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "AVAudioPlayer"]
+- ["CSo11UIResponder", "AVCaptureSessionPreset640x480"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "CGPoint"]
+- ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "CMTime"]
+- !private ["CSo11UIResponder", "GPUImageMotionDetector"]
+- ["CSo11UIResponder", "GPUImageVideoCamera"]
+- ["CSo11UIResponder", "GPUImageView"]
+- ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "NSBundle"]
+- !private ["CSo11UIResponder", "NSURL"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIInterfaceOrientation"]
+- ["CSo11UIResponder", "UILabel"]
+- !private ["CSo11UIResponder", "addSubview"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- !private ["CSo11UIResponder", "dispatch_async"]
+- !private ["CSo11UIResponder", "dispatch_get_main_queue"]
+- !private ["CSo11UIResponder", "hidden"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initCamera"]
+- ["CSo11UIResponder", "minimumCount"]
+- ["CSo11UIResponder", "minimumDuration"]
+- ["CSo11UIResponder", "motionDetectionCount"]
+- ["CSo11UIResponder", "motionIntensityThreshold"]
+- ["CSo11UIResponder", "playCoinSound"]
+- ["CSo11UIResponder", "scoreLabel"]
+- ["CSo11UIResponder", "startButton"]
+- ["CSo11UIResponder", "startFrameTime"]
+- ["CSo11UIResponder", "stopButton"]
+- !private ["CSo11UIResponder", "text"]
+- ["CSo11UIResponder", "throwEventDetected"]
+- ["CSo11UIResponder", "totalScore"]
+- ["CSo11UIResponder", "videoCamera"]
+- ["CSo11UIResponder", "videoView"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "AVAudioPlayer"]
+- ["PSo16UIStateRestoring", "AVCaptureSessionPreset640x480"]
+- !private ["PSo16UIStateRestoring", "CGFloat"]
+- ["PSo16UIStateRestoring", "CGRect"]
+- !private ["PSo16UIStateRestoring", "GPUImageMotionDetector"]
+- ["PSo16UIStateRestoring", "GPUImageVideoCamera"]
+- ["PSo16UIStateRestoring", "GPUImageView"]
+- !private ["PSo16UIStateRestoring", "NSBundle"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
+- !private ["PSo16UIStateRestoring", "String"]
+- !private ["PSo16UIStateRestoring", "UIInterfaceOrientation"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- !private ["PSo16UIStateRestoring", "dispatch_async"]
+- !private ["PSo16UIStateRestoring", "dispatch_get_main_queue"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "initCamera"]
+- ["PSo16UIStateRestoring", "minimumCount"]
+- ["PSo16UIStateRestoring", "minimumDuration"]
+- ["PSo16UIStateRestoring", "motionDetectionCount"]
+- ["PSo16UIStateRestoring", "motionIntensityThreshold"]
+- ["PSo16UIStateRestoring", "playCoinSound"]
+- ["PSo16UIStateRestoring", "scoreLabel"]
+- ["PSo16UIStateRestoring", "startButton"]
+- ["PSo16UIStateRestoring", "startFrameTime"]
+- ["PSo16UIStateRestoring", "stopButton"]
+- ["PSo16UIStateRestoring", "throwEventDetected"]
+- ["PSo16UIStateRestoring", "totalScore"]
+- ["PSo16UIStateRestoring", "videoCamera"]
+- ["PSo16UIStateRestoring", "videoView"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "AVAudioPlayer"]
+- ["PSo18UITraitEnvironment", "AVCaptureSessionPreset640x480"]
+- !private ["PSo18UITraitEnvironment", "CGFloat"]
+- ["PSo18UITraitEnvironment", "CGRect"]
+- !private ["PSo18UITraitEnvironment", "GPUImageMotionDetector"]
+- ["PSo18UITraitEnvironment", "GPUImageVideoCamera"]
+- ["PSo18UITraitEnvironment", "GPUImageView"]
+- !private ["PSo18UITraitEnvironment", "NSBundle"]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- !private ["PSo18UITraitEnvironment", "String"]
+- !private ["PSo18UITraitEnvironment", "UIInterfaceOrientation"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- !private ["PSo18UITraitEnvironment", "dispatch_async"]
+- !private ["PSo18UITraitEnvironment", "dispatch_get_main_queue"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "initCamera"]
+- ["PSo18UITraitEnvironment", "minimumCount"]
+- ["PSo18UITraitEnvironment", "minimumDuration"]
+- ["PSo18UITraitEnvironment", "motionDetectionCount"]
+- ["PSo18UITraitEnvironment", "motionIntensityThreshold"]
+- ["PSo18UITraitEnvironment", "playCoinSound"]
+- ["PSo18UITraitEnvironment", "scoreLabel"]
+- ["PSo18UITraitEnvironment", "startButton"]
+- ["PSo18UITraitEnvironment", "startFrameTime"]
+- ["PSo18UITraitEnvironment", "stopButton"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- ["PSo18UITraitEnvironment", "throwEventDetected"]
+- ["PSo18UITraitEnvironment", "totalScore"]
+- ["PSo18UITraitEnvironment", "videoCamera"]
+- ["PSo18UITraitEnvironment", "videoView"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "hidden"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "AVAudioPlayer"]
+- ["CSo16UIViewController", "AVCaptureSessionPreset640x480"]
+- ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "CGFloat"]
+- !private ["CSo16UIViewController", "CGPoint"]
+- ["CSo16UIViewController", "CGRect"]
+- !private ["CSo16UIViewController", "CMTime"]
+- !private ["CSo16UIViewController", "GPUImageMotionDetector"]
+- ["CSo16UIViewController", "GPUImageVideoCamera"]
+- ["CSo16UIViewController", "GPUImageView"]
+- ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "NSBundle"]
+- !private ["CSo16UIViewController", "NSURL"]
+- !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIInterfaceOrientation"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- !private ["CSo16UIViewController", "dispatch_async"]
+- !private ["CSo16UIViewController", "dispatch_get_main_queue"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "initCamera"]
+- ["CSo16UIViewController", "minimumCount"]
+- ["CSo16UIViewController", "minimumDuration"]
+- ["CSo16UIViewController", "motionDetectionCount"]
+- ["CSo16UIViewController", "motionIntensityThreshold"]
+- ["CSo16UIViewController", "playCoinSound"]
+- ["CSo16UIViewController", "scoreLabel"]
+- ["CSo16UIViewController", "startButton"]
+- ["CSo16UIViewController", "startFrameTime"]
+- ["CSo16UIViewController", "stopButton"]
+- ["CSo16UIViewController", "throwEventDetected"]
+- ["CSo16UIViewController", "totalScore"]
+- ["CSo16UIViewController", "videoCamera"]
+- ["CSo16UIViewController", "videoView"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["C7Junking14ViewController", "AVAudioPlayer"]
+- ["C7Junking14ViewController", "AVCaptureSessionPreset640x480"]
+- ["C7Junking14ViewController", "AnyObject"]
+- ["C7Junking14ViewController", "CGFloat"]
+- !private ["C7Junking14ViewController", "CGPoint"]
+- ["C7Junking14ViewController", "CGRect"]
+- !private ["C7Junking14ViewController", "CMTime"]
+- !private ["C7Junking14ViewController", "GPUImageMotionDetector"]
+- ["C7Junking14ViewController", "GPUImageVideoCamera"]
+- ["C7Junking14ViewController", "GPUImageView"]
+- ["C7Junking14ViewController", "Int"]
+- !private ["C7Junking14ViewController", "NSBundle"]
+- !private ["C7Junking14ViewController", "NSURL"]
+- !private ["C7Junking14ViewController", "String"]
+- !private ["C7Junking14ViewController", "UIInterfaceOrientation"]
+- ["C7Junking14ViewController", "UILabel"]
+- ["C7Junking14ViewController", "deinit"]
+- ["C7Junking14ViewController", "didReceiveMemoryWarning"]
+- !private ["C7Junking14ViewController", "dispatch_async"]
+- !private ["C7Junking14ViewController", "dispatch_get_main_queue"]
+- ["C7Junking14ViewController", "init"]
+- !private ["C7Junking14ViewController", "initCamera"]
+- !private ["C7Junking14ViewController", "minimumCount"]
+- !private ["C7Junking14ViewController", "minimumDuration"]
+- !private ["C7Junking14ViewController", "motionDetectionCount"]
+- !private ["C7Junking14ViewController", "motionIntensityThreshold"]
+- !private ["C7Junking14ViewController", "playCoinSound"]
+- ["C7Junking14ViewController", "scoreLabel"]
+- ["C7Junking14ViewController", "startButton"]
+- !private ["C7Junking14ViewController", "startFrameTime"]
+- ["C7Junking14ViewController", "stopButton"]
+- !private ["C7Junking14ViewController", "throwEventDetected"]
+- !private ["C7Junking14ViewController", "totalScore"]
+- !private ["C7Junking14ViewController", "videoCamera"]
+- !private ["C7Junking14ViewController", "videoView"]
+- !private ["C7Junking14ViewController", "view"]
+- ["C7Junking14ViewController", "viewDidLoad"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps19_CVarArgAlignedType", "IntegerLiteralType"]
+- !private ["Ps19_CVarArgAlignedType", "Stride"]
+- !private ["Ps19_CVarArgAlignedType", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps32_FileReferenceLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Stride"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "addSubview"]
+- !private ["Ps12_Reflectable", "hidden"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "text"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "CSo13AVAudioPlayer"
+- "PSo44AVCaptureAudioDataOutputSampleBufferDelegate"
+- "OSC23AVCaptureDevicePosition"
+- "PSo44AVCaptureVideoDataOutputSampleBufferDelegate"
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGRect"
+- !private "VSC6CMTime"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "CSo19GPUImageFilterGroup"
+- "PSo13GPUImageInput"
+- !private "CSo22GPUImageMotionDetector"
+- "CSo14GPUImageOutput"
+- "CSo19GPUImageVideoCamera"
+- "CSo12GPUImageView"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "CSo8NSBundle"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- "Ps16RawRepresentable"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "OSC22UIInterfaceOrientation"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- "C7Junking14ViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps32_FileReferenceLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePicture+TextureSubimage.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFramework.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMovieComposition.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFASTCornerDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageWeakPixelInclusionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageThreeInputFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSingleComponentGaussianBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDirectionalSobelEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDirectionalNonMaximumSuppressionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLuminanceRangeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageiOSBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLaplacianFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageZoomBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMotionBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePoissonBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTwoInputCrossTextureSamplingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLinearBurnBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLineGenerator.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageThresholdSketchFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageParallelCoordinateLineTransformFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHoughTransformLineDetector.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageThresholdedNonMaximumSuppressionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHalftoneFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMotionDetector.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHighPassFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLowPassFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageChromaKeyFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageWhiteBalanceFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAverageLuminanceThresholdFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLuminosity.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSolidColorGenerator.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAverageColor.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLanczosResamplingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLocalBinaryPatternFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePolkaDotFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDivideBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAddBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSoftEleganceFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMissEtikateFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAmatorkaFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLookupFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGlassSphereFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHueFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHSBFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFalseColorFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHighlightShadowFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageOpacityFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMonochromeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSphereRefractionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorPackingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBClosingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageClosingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBOpeningFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageOpeningFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBDilationFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDilationFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBErosionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageErosionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageShiTomasiFeatureDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageNobleCornerDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageToneCurveFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCrosshairGenerator.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBilateralFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMedianFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageNonMaximumSuppressionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageNormalBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAlphaBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHarrisCornerDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageXYDerivativeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePrewittEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHistogramEqualizationFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHistogramGenerator.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHistogramFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMaskFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageThresholdEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCannyEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageEmbossFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImage3x3ConvolutionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTiltShiftFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMosaicFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageVoronoiConsumerFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageJFAVoronoiFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePerlinNoiseFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageStretchDistortionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePolarPixellateFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCGAColorspaceFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCrosshatchFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePinchDistortionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBulgeDistortionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageUnsharpMaskFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAdaptiveThresholdFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBoxBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePosterizeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLuminanceThresholdFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHazeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageChromaKeyBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTransformFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGrayscaleFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCropFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLuminosityBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSaturationBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHueBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSoftLightBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHardLightBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSubtractBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDifferenceBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageExclusionBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageScreenBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorDodgeBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorBurnBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSourceOverBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSwirlFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLightenBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDarkenBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageOverlayBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGaussianSelectiveBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGaussianBlurPositionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTwoPassTextureSamplingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGaussianBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageVignetteFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageKuwaharaRadius3Filter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageKuwaharaFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDissolveBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMultiplyBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSmoothToonFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImage3x3TextureSamplingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageToonFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSketchFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTwoPassFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSobelEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGammaFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSharpenFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLevelsFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBrightnessFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageExposureFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageContrastFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSaturationFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorInvertFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorMatrixFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSepiaFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePixellatePositionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePixellateFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTwoInputFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBuffer.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageUIElement.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTextureInput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFilterGroup.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTextureOutput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFilterPipeline.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMovieWriter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRawDataOutput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRawDataInput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePicture.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMovie.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageStillCamera.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageVideoCamera.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageView.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageOutput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFramebufferCache.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFramebuffer.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageContext.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImage.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GLProgram.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImage-umbrella.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "b08cf38710e13f0bdef808a77c2fed83"
