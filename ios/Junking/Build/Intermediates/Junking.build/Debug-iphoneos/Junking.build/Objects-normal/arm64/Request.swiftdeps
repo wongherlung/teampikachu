@@ -9,24 +9,24 @@ provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
-- "Dictionary"
-- "HTTPPost"
-- "HTTPsendRequest"
-- "convertToPostData"
-- !private "NSUTF8StringEncoding"
-- "NSMutableURLRequest"
 - "String"
-- "NSData"
-- !private "!="
-- "StringLiteralType"
-- "Void"
-- !private "NSString"
 - !private "NSURLSession"
-- !private "+="
 - !private "UnicodeScalarType"
+- "HTTPsendRequest"
+- "NSMutableURLRequest"
 - "HTTPPut"
-- "HTTPGet"
+- "HTTPPost"
 - !private "NSURL"
+- !private "NSUTF8StringEncoding"
+- "Void"
+- !private "!="
+- !private "+="
+- "convertToPostData"
+- !private "NSString"
+- "NSData"
+- "HTTPGet"
+- "Dictionary"
+- "StringLiteralType"
 depends-member:
 - !private ["Ps9AnyObject", "HTTPBody"]
 - !private ["Ps9AnyObject", "HTTPMethod"]
