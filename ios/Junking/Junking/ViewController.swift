@@ -10,6 +10,9 @@ import UIKit
 import GPUImage
 
 class ViewController: UIViewController {
+    private let videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480,
+                                                  cameraPosition: .Back)
+    private let videoView = GPUImageView(frame: CGRect(x: 0, y: 0, width: 320, height: 320))
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +26,14 @@ class ViewController: UIViewController {
     }
 
     private func initCamera() {
-        let videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480,
-                                              cameraPosition: .Back)
         videoCamera.outputImageOrientation = UIInterfaceOrientation.Portrait
+        
+        let filter = GPUImageFilter()
+        
+        view.addSubview(videoView)
+        
+        videoCamera.addTarget(filter)
+        filter.addTarget(videoView)
         
         videoCamera.startCameraCapture()
     }
