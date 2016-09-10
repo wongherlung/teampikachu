@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import GPUImage
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        initCamera()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +22,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    private func initCamera() {
+        let videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480,
+                                              cameraPosition: .Back)
+        videoCamera.outputImageOrientation = UIInterfaceOrientation.Portrait
+        
+        videoCamera.startCameraCapture()
+    }
 
 }
 
