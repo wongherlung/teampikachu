@@ -8,17 +8,22 @@
 
 import UIKit
 import GPUImage
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var scoreLabel: UILabel!
     private let videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480,
                                                   cameraPosition: .Back)
     private let videoView = GPUImageView(frame: CGRect(x: 0, y: 0, width: 320, height: 320))
     private var motionDetectionCount: Int = 0
     private var startFrameTime: CGFloat = 0
+    private var coinPlayer: AVAudioPlayer? = nil
     
     private let motionIntensityThreshold: CGFloat = 0.075
-    private let minimumCount: Int = 5
+    private let minimumCount: Int = 1
     private let minimumDuration: CGFloat = 1.5
+    private var totalScore: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +35,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func startButton(sender: AnyObject) {
+        totalScore = 0
+        self.scoreLabel.text = String(self.totalScore)
+    }
+ 
+    @IBAction func stopButton(sender: AnyObject) {
+        
+    }
+   
     private func initCamera() {
         videoCamera.outputImageOrientation = UIInterfaceOrientation.Portrait
         
@@ -50,11 +64,11 @@ class ViewController: UIViewController {
                 
                 // There must be 5 or more detections and there has to be a sustained
                 // duration for it to be considered an event.
-                if self.motionDetectionCount > self.minimumCount &&
+                if self.motionDetectionCount >= self.minimumCount &&
                     newFrameTime - self.startFrameTime >= self.minimumDuration {
                     
                     // Insert code to make API call
-                    print("DETECTED")
+                    self.throwEventDetected()
                     
                     // Reset tracking parameters
                     self.startFrameTime = newFrameTime
@@ -63,13 +77,33 @@ class ViewController: UIViewController {
                 
             }
         }
-            
+        
+        videoView.hidden = true
         view.addSubview(videoView)
         
         videoCamera.addTarget(filter)
         filter.addTarget(videoView)
         
         videoCamera.startCameraCapture()
+    }
+    
+    private func throwEventDetected() {
+        totalScore += 1
+        dispatch_async(dispatch_get_main_queue(), {
+            self.scoreLabel.text = String(self.totalScore)
+        })
+        self.playCoinSound()
+    }
+    
+    private func playCoinSound() {
+        let coinSoundFile = NSURL(fileURLWithPath: NSBundle.mainBundle()
+            .pathForResource("coin", ofType: "wav")!)
+        
+        coinPlayer = try? AVAudioPlayer(contentsOfURL: coinSoundFile)
+        
+        coinPlayer?.numberOfLoops = 0
+        coinPlayer?.prepareToPlay()
+        coinPlayer?.play()
     }
 }
 
