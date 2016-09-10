@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     private let minimumCount: Int = 1
     private let minimumDuration: CGFloat = 1.5
     private var totalScore: Int = 0
+    private var gameStarted: Bool = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,11 +39,13 @@ class ViewController: UIViewController {
     
     @IBAction func startButton(sender: AnyObject) {
         totalScore = 0
+        gameStarted = true
         self.scoreLabel.text = String(self.totalScore)
     }
  
     @IBAction func stopButton(sender: AnyObject) {
-        
+        gameStarted = false
+        self.scoreLabel.text = "-"
     }
    
     private func initCamera() {
@@ -50,6 +53,10 @@ class ViewController: UIViewController {
         
         let filter = GPUImageMotionDetector()
         filter.motionDetectionBlock = { (motionCentriod: CGPoint, motionIntensity: CGFloat, frameTime: CMTime) in
+            
+            guard self.gameStarted else {
+                return
+            }
             
             // Intensity must be of a certain threshold
             if motionIntensity >= self.motionIntensityThreshold {
