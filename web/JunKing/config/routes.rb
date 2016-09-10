@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
+  get 'stats', to: 'stats#index'
+
   get 'new', to: 'add_bottles#new'
   get 'increment', to: 'add_bottles#increment'
 
   get 'welcome/index'
 
   root 'welcome#index'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
