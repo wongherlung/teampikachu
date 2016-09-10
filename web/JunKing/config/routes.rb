@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'rewards', to: 'rewards#index'
+
   get 'new', to: 'add_bottles#new'
   get 'increment', to: 'add_bottles#increment'
 
