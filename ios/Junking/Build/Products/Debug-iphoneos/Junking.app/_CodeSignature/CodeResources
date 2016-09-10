@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sNl0w+ghR7KPmsoiB378B6UjH+0=
+			rak4g/B6bmbbLZUzgJq9x83znxE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,14 +53,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			14fQxNlCKpMyaxevmZ72e6yf6F0=
+			8v9fqOLbr+Yhrje8ErfB7IjiB1A=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/GPUImage.framework/GPUImage</key>
 		<data>
-		GkuXJEjwLI70PQD/xN6iNd8QxKk=
+		II+KQzmmRSa/QVb8mQdVTOsVoBc=
 		</data>
 		<key>Frameworks/GPUImage.framework/Info.plist</key>
 		<data>
@@ -146,6 +146,10 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>coin.wav</key>
+		<data>
+		EEyZv8wmjnonTaI1IbXiw2cN998=
+		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
 		4giBq37zb87rDxIPwV8Qf0MiTlM=
@@ -196,11 +200,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sNl0w+ghR7KPmsoiB378B6UjH+0=
+			rak4g/B6bmbbLZUzgJq9x83znxE=
 			</data>
 			<key>hash2</key>
 			<data>
-			3yWPXlcUF1IvxUkD/XKEtFSnlAE37mapZh71sC+hV+o=
+			X0YRGPf1bkQeUbefFHjC9JFJE9ZkJICwaT01dqBsVFc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -222,11 +226,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			14fQxNlCKpMyaxevmZ72e6yf6F0=
+			8v9fqOLbr+Yhrje8ErfB7IjiB1A=
 			</data>
 			<key>hash2</key>
 			<data>
-			3n3biBT+4tXN9b2MQgNiJInfrP7Ay0wuJSb8xyniqak=
+			UWaMvDwBonv4P15St0P6nNWabwOo/3kr8ckESL5cF8k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -235,11 +239,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GkuXJEjwLI70PQD/xN6iNd8QxKk=
+			II+KQzmmRSa/QVb8mQdVTOsVoBc=
 			</data>
 			<key>hash2</key>
 			<data>
-			bMSbsf91HOmXaW+w/6FsnAXfhrXgy8AiGvKxNrwWynU=
+			LpXJjH4pZQu/FXybu3PqYRWxYvIcDe/zyqiGQu4eMHo=
 			</data>
 		</dict>
 		<key>Frameworks/GPUImage.framework/Info.plist</key>
@@ -449,6 +453,17 @@
 			<key>hash2</key>
 			<data>
 			hQ2oEKHzmLW5JifmN1JS2i8c9sS1CaYclD2yzL3S/fA=
+			</data>
+		</dict>
+		<key>coin.wav</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EEyZv8wmjnonTaI1IbXiw2cN998=
+			</data>
+			<key>hash2</key>
+			<data>
+			NuWz2amPjn3iYPY4yYRwmpVhxezySRXNU8yYdWrnBsY=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

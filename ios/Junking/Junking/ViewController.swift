@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     private let videoView = GPUImageView(frame: CGRect(x: 0, y: 0, width: 320, height: 320))
     private var motionDetectionCount: Int = 0
     private var startFrameTime: CGFloat = 0
+    private var coinPlayer: AVAudioPlayer? = nil
     
     private let motionIntensityThreshold: CGFloat = 0.075
     private let minimumCount: Int = 1
@@ -90,20 +91,19 @@ class ViewController: UIViewController {
         totalScore += 1
         dispatch_async(dispatch_get_main_queue(), {
             self.scoreLabel.text = String(self.totalScore)
-            // self.playCoinSound()
         })
+        self.playCoinSound()
     }
     
     private func playCoinSound() {
-        var coinPlayer: AVAudioPlayer!
-        
         let coinSoundFile = NSURL(fileURLWithPath: NSBundle.mainBundle()
             .pathForResource("coin", ofType: "wav")!)
         
         coinPlayer = try? AVAudioPlayer(contentsOfURL: coinSoundFile)
         
-        coinPlayer.numberOfLoops = 0
-        coinPlayer.prepareToPlay()
+        coinPlayer?.numberOfLoops = 0
+        coinPlayer?.prepareToPlay()
+        coinPlayer?.play()
     }
 }
 
