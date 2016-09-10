@@ -12,4 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require AdminLTE/AdminLTE
+ *= require AdminLTE/skins/skin-blue
+ *= require font-awesome
  */
