@@ -6,40 +6,42 @@ provides-nominal:
 provides-member:
 - ["C7Junking14ViewController", ""]
 provides-dynamic-lookup:
-- "startButton"
-- "stopButton"
 - "didReceiveMemoryWarning"
+- "stopButton"
 - "scoreLabel"
+- "startButton"
 - "viewDidLoad"
 depends-top-level:
-- !private "NSURL"
-- !private "-"
-- "Int"
-- "CGRect"
-- !private "String"
-- !private "StringLiteralType"
-- !private "=="
-- "ViewController"
-- "CGFloat"
-- "GPUImageVideoCamera"
-- !private "UIInterfaceOrientation"
-- !private "+="
-- !private "CGPoint"
-- !private "CMTime"
-- "AVCaptureSessionPreset640x480"
-- "UIViewController"
-- !private "BooleanLiteralType"
-- !private ">="
-- !private "/"
-- !private "dispatch_get_main_queue"
 - !private "NSBundle"
 - "GPUImageView"
-- !private "GPUImageMotionDetector"
-- !private "&&"
-- "UILabel"
 - "AnyObject"
+- "GPUImageVideoCamera"
+- "ViewController"
+- !private "NSURL"
 - !private "dispatch_async"
+- !private "GPUImageMotionDetector"
 - "AVAudioPlayer"
+- "BooleanLiteralType"
+- !private "&&"
+- "AVCaptureSessionPreset640x480"
+- !private "dispatch_get_main_queue"
+- !private "-"
+- !private "CGPoint"
+- !private "StringLiteralType"
+- !private "/"
+- "CGFloat"
+- !private "+="
+- !private "UnicodeScalarType"
+- "UILabel"
+- "Bool"
+- "UIViewController"
+- !private "UIInterfaceOrientation"
+- !private "String"
+- "CGRect"
+- !private ">="
+- !private "=="
+- "Int"
+- !private "CMTime"
 depends-member:
 - !private ["CSo13AVAudioPlayer", "init"]
 - !private ["CSo13AVAudioPlayer", "numberOfLoops"]
@@ -74,6 +76,7 @@ depends-member:
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - !private ["Ps9AnyObject", "dispatch_async"]
 - !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- ["Ps9AnyObject", "gameStarted"]
 - !private ["Ps9AnyObject", "hidden"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "initCamera"]
@@ -132,6 +135,7 @@ depends-member:
 - ["Ps11CVarArgType", "didReceiveMemoryWarning"]
 - !private ["Ps11CVarArgType", "dispatch_async"]
 - !private ["Ps11CVarArgType", "dispatch_get_main_queue"]
+- ["Ps11CVarArgType", "gameStarted"]
 - !private ["Ps11CVarArgType", "hidden"]
 - ["Ps11CVarArgType", "init"]
 - ["Ps11CVarArgType", "initCamera"]
@@ -181,6 +185,7 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
 - !private ["Ps28CustomDebugStringConvertible", "dispatch_get_main_queue"]
+- ["Ps28CustomDebugStringConvertible", "gameStarted"]
 - !private ["Ps28CustomDebugStringConvertible", "hidden"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "initCamera"]
@@ -229,6 +234,7 @@ depends-member:
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - !private ["Ps23CustomStringConvertible", "dispatch_async"]
 - !private ["Ps23CustomStringConvertible", "dispatch_get_main_queue"]
+- ["Ps23CustomStringConvertible", "gameStarted"]
 - !private ["Ps23CustomStringConvertible", "hidden"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "initCamera"]
@@ -279,6 +285,7 @@ depends-member:
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - !private ["Ps9Equatable", "dispatch_async"]
 - !private ["Ps9Equatable", "dispatch_get_main_queue"]
+- ["Ps9Equatable", "gameStarted"]
 - !private ["Ps9Equatable", "hidden"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "initCamera"]
@@ -359,6 +366,7 @@ depends-member:
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - !private ["Ps8Hashable", "dispatch_async"]
 - !private ["Ps8Hashable", "dispatch_get_main_queue"]
+- ["Ps8Hashable", "gameStarted"]
 - !private ["Ps8Hashable", "hidden"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "initCamera"]
@@ -415,6 +423,7 @@ depends-member:
 - ["PSo8NSCoding", "didReceiveMemoryWarning"]
 - !private ["PSo8NSCoding", "dispatch_async"]
 - !private ["PSo8NSCoding", "dispatch_get_main_queue"]
+- ["PSo8NSCoding", "gameStarted"]
 - !private ["PSo8NSCoding", "hidden"]
 - ["PSo8NSCoding", "init"]
 - ["PSo8NSCoding", "initCamera"]
@@ -451,6 +460,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
 - !private ["PSo26NSExtensionRequestHandling", "dispatch_async"]
 - !private ["PSo26NSExtensionRequestHandling", "dispatch_get_main_queue"]
+- ["PSo26NSExtensionRequestHandling", "gameStarted"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "initCamera"]
 - ["PSo26NSExtensionRequestHandling", "minimumCount"]
@@ -472,6 +482,7 @@ depends-member:
 - ["CSo8NSObject", "AVAudioPlayer"]
 - ["CSo8NSObject", "AVCaptureSessionPreset640x480"]
 - ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
 - ["CSo8NSObject", "CGFloat"]
 - !private ["CSo8NSObject", "CGPoint"]
 - ["CSo8NSObject", "CGRect"]
@@ -491,6 +502,7 @@ depends-member:
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - !private ["CSo8NSObject", "dispatch_async"]
 - !private ["CSo8NSObject", "dispatch_get_main_queue"]
+- ["CSo8NSObject", "gameStarted"]
 - !private ["CSo8NSObject", "hidden"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "initCamera"]
@@ -535,6 +547,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - !private ["PSo16NSObjectProtocol", "dispatch_async"]
 - !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
+- ["PSo16NSObjectProtocol", "gameStarted"]
 - !private ["PSo16NSObjectProtocol", "hidden"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "initCamera"]
@@ -605,6 +618,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
 - !private ["PSo21UIAppearanceContainer", "dispatch_async"]
 - !private ["PSo21UIAppearanceContainer", "dispatch_get_main_queue"]
+- ["PSo21UIAppearanceContainer", "gameStarted"]
 - !private ["PSo21UIAppearanceContainer", "hidden"]
 - ["PSo21UIAppearanceContainer", "init"]
 - ["PSo21UIAppearanceContainer", "initCamera"]
@@ -640,6 +654,7 @@ depends-member:
 - ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
 - !private ["PSo18UIContentContainer", "dispatch_async"]
 - !private ["PSo18UIContentContainer", "dispatch_get_main_queue"]
+- ["PSo18UIContentContainer", "gameStarted"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "initCamera"]
 - ["PSo18UIContentContainer", "minimumCount"]
@@ -682,6 +697,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UIFocusEnvironment", "dispatch_async"]
 - !private ["PSo18UIFocusEnvironment", "dispatch_get_main_queue"]
+- ["PSo18UIFocusEnvironment", "gameStarted"]
 - !private ["PSo18UIFocusEnvironment", "hidden"]
 - ["PSo18UIFocusEnvironment", "init"]
 - ["PSo18UIFocusEnvironment", "initCamera"]
@@ -707,6 +723,7 @@ depends-member:
 - ["CSo11UIResponder", "AVAudioPlayer"]
 - ["CSo11UIResponder", "AVCaptureSessionPreset640x480"]
 - ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
 - ["CSo11UIResponder", "CGFloat"]
 - !private ["CSo11UIResponder", "CGPoint"]
 - ["CSo11UIResponder", "CGRect"]
@@ -725,6 +742,7 @@ depends-member:
 - ["CSo11UIResponder", "didReceiveMemoryWarning"]
 - !private ["CSo11UIResponder", "dispatch_async"]
 - !private ["CSo11UIResponder", "dispatch_get_main_queue"]
+- ["CSo11UIResponder", "gameStarted"]
 - !private ["CSo11UIResponder", "hidden"]
 - ["CSo11UIResponder", "init"]
 - ["CSo11UIResponder", "initCamera"]
@@ -759,6 +777,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
 - !private ["PSo16UIStateRestoring", "dispatch_async"]
 - !private ["PSo16UIStateRestoring", "dispatch_get_main_queue"]
+- ["PSo16UIStateRestoring", "gameStarted"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "initCamera"]
 - ["PSo16UIStateRestoring", "minimumCount"]
@@ -793,6 +812,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
 - !private ["PSo18UITraitEnvironment", "dispatch_async"]
 - !private ["PSo18UITraitEnvironment", "dispatch_get_main_queue"]
+- ["PSo18UITraitEnvironment", "gameStarted"]
 - !private ["PSo18UITraitEnvironment", "hidden"]
 - ["PSo18UITraitEnvironment", "init"]
 - ["PSo18UITraitEnvironment", "initCamera"]
@@ -820,6 +840,7 @@ depends-member:
 - ["CSo16UIViewController", "AVAudioPlayer"]
 - ["CSo16UIViewController", "AVCaptureSessionPreset640x480"]
 - ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
 - ["CSo16UIViewController", "CGFloat"]
 - !private ["CSo16UIViewController", "CGPoint"]
 - ["CSo16UIViewController", "CGRect"]
@@ -837,6 +858,7 @@ depends-member:
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - !private ["CSo16UIViewController", "dispatch_async"]
 - !private ["CSo16UIViewController", "dispatch_get_main_queue"]
+- ["CSo16UIViewController", "gameStarted"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "initCamera"]
 - ["CSo16UIViewController", "minimumCount"]
@@ -859,6 +881,7 @@ depends-member:
 - ["C7Junking14ViewController", "AVAudioPlayer"]
 - ["C7Junking14ViewController", "AVCaptureSessionPreset640x480"]
 - ["C7Junking14ViewController", "AnyObject"]
+- ["C7Junking14ViewController", "Bool"]
 - ["C7Junking14ViewController", "CGFloat"]
 - !private ["C7Junking14ViewController", "CGPoint"]
 - ["C7Junking14ViewController", "CGRect"]
@@ -877,6 +900,7 @@ depends-member:
 - ["C7Junking14ViewController", "didReceiveMemoryWarning"]
 - !private ["C7Junking14ViewController", "dispatch_async"]
 - !private ["C7Junking14ViewController", "dispatch_get_main_queue"]
+- !private ["C7Junking14ViewController", "gameStarted"]
 - ["C7Junking14ViewController", "init"]
 - !private ["C7Junking14ViewController", "initCamera"]
 - !private ["C7Junking14ViewController", "minimumCount"]
@@ -1192,4 +1216,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
-interface-hash: "787a709e770c0146f846c5e67a66b75b"
+interface-hash: "7db7a690dfaf4396d0313478eb42730f"
