@@ -12,13 +12,13 @@
 	<title>JunKing</title>
 
 	<!-- Bootstrap core CSS -->
-	<link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- <link href="../../dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
 	<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-	<link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+	<!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
 
 	<!-- Custom styles for this template -->
-	<link href="dashboard.css" rel="stylesheet">
+	<!-- <link href="dashboard.css" rel="stylesheet"> -->
 
 	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -65,6 +65,8 @@
 			</ul>
 		</div>
 		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+			<% if @latest %>
 			<h1 class="page-header">Live Score</h1>
 			<div class="table-responsive">
 				<table class="table table-striped">
@@ -84,7 +86,7 @@
 					</tbody>
 				</table>
 			</div>
-
+			<% end %>
 			<!-- <div class="row placeholders">
 			<div class="col-xs-6 col-sm-3 placeholder">
 				<img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
@@ -120,12 +122,18 @@
 				</tr>
 				</thead>
 				<tbody>
-					<% @users.each_with_index  do |user, index| %>
+					<% if not @users.empty? %>
+						<% @users.each_with_index  do |user, index| %>
+							<tr>
+								<td><%= index + 1 %></td>
+								<td><%= user.name %></td>
+								<td><%= user.recycled_product %></td>
+								<td>$<%= number_with_precision(user.recycled_product * 0.2, :precision => 2) %></td>
+							</tr>
+						<% end %>
+					<% else %>
 						<tr>
-							<td><%= index + 1 %></td>
-							<td><%= user.name %></td>
-							<td><%= user.recycled_product %></td>
-							<td>$<%= number_with_precision(user.recycled_product * 0.2, :precision => 2) %></td>
+							<td colspan="4">Nobody recycled :(</td>
 						</tr>
 					<% end %>
 				</tbody>
