@@ -71,13 +71,15 @@
 					<thead>
 						<tr>
 							<th>Name</th>
-							<th>Current Score</th>
+							<th># of Products Recycled</th>
+							<th>$</th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
 							<td><%= @latest.name %></td>
 							<td><%= @latest.recycled_product %></td>
+							<td>$<%= number_with_precision(@latest.recycled_product * 0.2, :precision => 2) %></td>
 						</tr>
 					</tbody>
 				</table>
@@ -114,7 +116,7 @@
 					<th>#</th>
 					<th>Name</th>
 					<th># of Products Recycled</th>
-					<th>$$</th>
+					<th>$</th>
 				</tr>
 				</thead>
 				<tbody>
