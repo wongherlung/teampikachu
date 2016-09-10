@@ -47,10 +47,6 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startButton(sender: AnyObject) {
-        guard usernameField.text != nil else {
-            return
-        }
-        
         sendStartRequest()
         totalScore = 0
         gameStarted = true
@@ -129,10 +125,15 @@ class ViewController: UIViewController {
     }
     
     private func sendStartRequest() {
-        HTTPGet("http://home.herlaang.com:5000/new?name=" + usernameField.text!, callback: {
+        guard var name = usernameField.text else {
+            return
+        }
+        name = name.stringByReplacingOccurrencesOfString(" ", withString: "_")
+        
+        HTTPGet("http://home.herlaang.com:5000/new?name=" + name, callback: {
             (str1: String, str2: String?) in
             print(str1)
-            print(str2)
+            // print(str2)
         })
     }
     
@@ -140,7 +141,7 @@ class ViewController: UIViewController {
         HTTPGet("http://home.herlaang.com:5000/increment", callback: {
             (str1: String, str2: String?) in
             print(str1)
-            print(str2)
+            // print(str2)
         })
     }
 }

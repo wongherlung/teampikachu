@@ -6,50 +6,49 @@ provides-nominal:
 provides-member:
 - ["C7Junking14ViewController", ""]
 provides-dynamic-lookup:
-- "stopButton"
-- "usernameField"
 - "startButton"
+- "usernameField"
+- "stopButton"
 - "didReceiveMemoryWarning"
 - "viewDidLoad"
 - "dismissKeyboard"
 - "scoreLabel"
 depends-top-level:
 - "UITextField"
-- !private "UIInterfaceOrientation"
-- !private "=="
+- !private "+"
+- !private "GPUImageMotionDetector"
+- !private "&&"
+- !private "NSURL"
 - "AVCaptureSessionPreset640x480"
-- "AnyObject"
-- "BooleanLiteralType"
 - !private "HTTPGet"
 - "AVAudioPlayer"
 - "Bool"
-- !private "CGPoint"
-- !private "/"
-- "GPUImageVideoCamera"
-- !private ">="
-- !private "print"
-- !private "+"
-- !private "CMTime"
-- !private "UnicodeScalarType"
-- "Int"
-- !private "&&"
-- "UIViewController"
-- !private "UITapGestureRecognizer"
-- !private "NSBundle"
-- "CGRect"
+- "BooleanLiteralType"
 - !private "dispatch_async"
-- !private "-"
+- !private "UITapGestureRecognizer"
+- "GPUImageVideoCamera"
+- "UIViewController"
+- "CGRect"
 - !private "StringLiteralType"
-- !private "NSURL"
 - "GPUImageView"
-- !private "dispatch_get_main_queue"
-- "UILabel"
-- "ViewController"
-- !private "String"
-- "CGFloat"
+- "Int"
+- !private "CMTime"
 - !private "+="
-- !private "!="
-- !private "GPUImageMotionDetector"
+- !private "UnicodeScalarType"
+- !private "/"
+- !private ">="
+- "ViewController"
+- "UILabel"
+- !private "UIInterfaceOrientation"
+- !private "dispatch_get_main_queue"
+- !private "print"
+- "CGFloat"
+- !private "String"
+- "AnyObject"
+- !private "CGPoint"
+- !private "NSBundle"
+- !private "=="
+- !private "-"
 depends-member:
 - !private ["CSo13AVAudioPlayer", "init"]
 - !private ["CSo13AVAudioPlayer", "numberOfLoops"]
@@ -113,6 +112,7 @@ depends-member:
 - !private ["Ps9AnyObject", "startCameraCapture"]
 - ["Ps9AnyObject", "startFrameTime"]
 - ["Ps9AnyObject", "stopButton"]
+- !private ["Ps9AnyObject", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps9AnyObject", "text"]
 - ["Ps9AnyObject", "throwEventDetected"]
 - ["Ps9AnyObject", "totalScore"]
@@ -181,6 +181,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "startCameraCapture"]
 - ["Ps11CVarArgType", "startFrameTime"]
 - ["Ps11CVarArgType", "stopButton"]
+- !private ["Ps11CVarArgType", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps11CVarArgType", "text"]
 - ["Ps11CVarArgType", "throwEventDetected"]
 - ["Ps11CVarArgType", "totalScore"]
@@ -193,6 +194,7 @@ depends-member:
 - !private ["Ps10Comparable", "IntegerLiteralType"]
 - !private ["Ps10Comparable", "Stride"]
 - !private ["Ps10Comparable", "init"]
+- !private ["Ps10Comparable", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps10Comparable", "value"]
 - !private ["Ps28CustomDebugStringConvertible", "AVAudioPlayer"]
 - ["Ps28CustomDebugStringConvertible", "AVCaptureSessionPreset640x480"]
@@ -204,6 +206,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "HTTPGet"]
 - !private ["Ps28CustomDebugStringConvertible", "NSBundle"]
 - !private ["Ps28CustomDebugStringConvertible", "NSURL"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "UIInterfaceOrientation"]
 - !private ["Ps28CustomDebugStringConvertible", "UITapGestureRecognizer"]
@@ -240,6 +243,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "startCameraCapture"]
 - ["Ps28CustomDebugStringConvertible", "startFrameTime"]
 - ["Ps28CustomDebugStringConvertible", "stopButton"]
+- !private ["Ps28CustomDebugStringConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps28CustomDebugStringConvertible", "text"]
 - ["Ps28CustomDebugStringConvertible", "throwEventDetected"]
 - ["Ps28CustomDebugStringConvertible", "totalScore"]
@@ -298,6 +302,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "startCameraCapture"]
 - ["Ps23CustomStringConvertible", "startFrameTime"]
 - ["Ps23CustomStringConvertible", "stopButton"]
+- !private ["Ps23CustomStringConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps23CustomStringConvertible", "text"]
 - ["Ps23CustomStringConvertible", "throwEventDetected"]
 - ["Ps23CustomStringConvertible", "totalScore"]
@@ -358,6 +363,7 @@ depends-member:
 - !private ["Ps9Equatable", "startCameraCapture"]
 - ["Ps9Equatable", "startFrameTime"]
 - ["Ps9Equatable", "stopButton"]
+- !private ["Ps9Equatable", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps9Equatable", "text"]
 - ["Ps9Equatable", "throwEventDetected"]
 - ["Ps9Equatable", "totalScore"]
@@ -369,6 +375,7 @@ depends-member:
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps23FloatLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps23FloatLiteralConvertible", "Stride"]
 - !private ["Ps23FloatLiteralConvertible", "init"]
@@ -448,6 +455,7 @@ depends-member:
 - !private ["Ps8Hashable", "startCameraCapture"]
 - ["Ps8Hashable", "startFrameTime"]
 - ["Ps8Hashable", "stopButton"]
+- !private ["Ps8Hashable", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps8Hashable", "text"]
 - ["Ps8Hashable", "throwEventDetected"]
 - ["Ps8Hashable", "totalScore"]
@@ -467,6 +475,7 @@ depends-member:
 - !private ["Ps11IntegerType", "IntegerLiteralType"]
 - !private ["Ps14MirrorPathType", "IntegerLiteralType"]
 - !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps14MirrorPathType", "stringByReplacingOccurrencesOfString"]
 - !private ["CSo8NSBundle", "mainBundle"]
 - !private ["CSo8NSBundle", "pathForResource"]
 - !private ["PSo8NSCoding", "AVAudioPlayer"]
@@ -506,6 +515,7 @@ depends-member:
 - ["PSo8NSCoding", "startButton"]
 - ["PSo8NSCoding", "startFrameTime"]
 - ["PSo8NSCoding", "stopButton"]
+- !private ["PSo8NSCoding", "stringByReplacingOccurrencesOfString"]
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "throwEventDetected"]
 - ["PSo8NSCoding", "totalScore"]
@@ -516,6 +526,7 @@ depends-member:
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringByReplacingOccurrencesOfString"]
 - !private ["PSo26NSExtensionRequestHandling", "AVAudioPlayer"]
 - ["PSo26NSExtensionRequestHandling", "AVCaptureSessionPreset640x480"]
 - !private ["PSo26NSExtensionRequestHandling", "CGFloat"]
@@ -557,6 +568,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "view"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "stringByReplacingOccurrencesOfString"]
 - ["CSo8NSObject", "AVAudioPlayer"]
 - ["CSo8NSObject", "AVCaptureSessionPreset640x480"]
 - ["CSo8NSObject", "AnyObject"]
@@ -610,6 +622,7 @@ depends-member:
 - !private ["CSo8NSObject", "startCameraCapture"]
 - ["CSo8NSObject", "startFrameTime"]
 - ["CSo8NSObject", "stopButton"]
+- !private ["CSo8NSObject", "stringByReplacingOccurrencesOfString"]
 - !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "throwEventDetected"]
 - ["CSo8NSObject", "totalScore"]
@@ -664,6 +677,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "startCameraCapture"]
 - ["PSo16NSObjectProtocol", "startFrameTime"]
 - ["PSo16NSObjectProtocol", "stopButton"]
+- !private ["PSo16NSObjectProtocol", "stringByReplacingOccurrencesOfString"]
 - !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "throwEventDetected"]
 - ["PSo16NSObjectProtocol", "totalScore"]
@@ -674,9 +688,14 @@ depends-member:
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["CSo8NSString", "stringByReplacingOccurrencesOfString"]
 - !private ["CSo5NSURL", "init"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
 - !private ["Sq", "deinit"]
 - !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps16OutputStreamType", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
 - ["Ps16RawRepresentable", "Back"]
 - !private ["Ps16RawRepresentable", "Portrait"]
@@ -685,12 +704,16 @@ depends-member:
 - !private ["Ps16SignedNumberType", "Stride"]
 - !private ["Ps16SignedNumberType", "init"]
 - !private ["Ps10Streamable", "init"]
+- !private ["Ps10Streamable", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps10Strideable", "IntegerLiteralType"]
 - !private ["Ps10Strideable", "Stride"]
 - !private ["Ps10Strideable", "init"]
 - !private ["SS", "init"]
+- !private ["SS", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps30StringInterpolationConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps24StringLiteralConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "endEditing"]
@@ -1051,6 +1074,7 @@ depends-member:
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
 - ["C7Junking14ViewController", "AVAudioPlayer"]
 - ["C7Junking14ViewController", "AVCaptureSessionPreset640x480"]
 - ["C7Junking14ViewController", "AnyObject"]
@@ -1101,10 +1125,14 @@ depends-member:
 - ["C7Junking14ViewController", "viewDidLoad"]
 - !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps19_CVarArgAlignedType", "IntegerLiteralType"]
 - !private ["Ps19_CVarArgAlignedType", "Stride"]
 - !private ["Ps19_CVarArgAlignedType", "init"]
@@ -1119,9 +1147,10 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "Stride"]
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
-- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps21_ObjectiveCBridgeable", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Some"]
 - !private ["Ps12_Reflectable", "Stride"]
 - !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "addGestureRecognizer"]
@@ -1129,6 +1158,7 @@ depends-member:
 - !private ["Ps12_Reflectable", "endEditing"]
 - !private ["Ps12_Reflectable", "hidden"]
 - ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "stringByReplacingOccurrencesOfString"]
 - !private ["Ps12_Reflectable", "text"]
 - !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
 depends-nominal:
@@ -1172,10 +1202,13 @@ depends-nominal:
 - "PSo8NSCoding"
 - !private "PSo9NSCopying"
 - "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
 - "CSo8NSObject"
 - "PSo16NSObjectProtocol"
 - !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
 - !private "CSo5NSURL"
+- !private "Ps21NilLiteralConvertible"
 - !private "Sq"
 - !private "Ps16OutputStreamType"
 - !private "Ps21RandomAccessIndexType"
@@ -1223,7 +1256,6 @@ depends-nominal:
 - !private "Ps22_IntegerArithmeticType"
 - !private "Ps12_IntegerType"
 - !private "Ps21_ObjectiveCBridgeable"
-- !private "Vs26_OptionalNilComparisonType"
 - !private "Ps22_RandomAccessAmbiguity"
 - "Ps12_Reflectable"
 - !private "Ps18_SignedIntegerType"
