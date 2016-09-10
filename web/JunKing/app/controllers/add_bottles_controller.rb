@@ -1,13 +1,19 @@
 class AddBottlesController < ApplicationController
-  def new
-	puts 'hello'
-	@user = User.new(params.require(:user).permit(:name, :recycled_product))
-	@user.save!
+  def increment
+	puts 'increment'
+	@new_user = User.order("updated_at").last
+	@new_user.recycled_product = @new_user.recycled_product + 1
+	@new_user.save!
 
-	@new_user = User.where(name: params[:user][:name]).order("created_at").last
 	render json: @new_user
   end
 
-  def create
+  def new
+  	puts 'new user'
+	@user = User.new(params.permit(:name))
+	@user.recycled_product = 0
+	@user.save!
+
+	render json: @user
   end
 end
