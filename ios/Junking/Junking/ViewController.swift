@@ -12,6 +12,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var scoreLabel: UILabel!
     private let videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480,
                                                   cameraPosition: .Back)
@@ -30,6 +31,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         initCamera()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
+        view.addGestureRecognizer(tap)
     }
 
     override func didReceiveMemoryWarning() {
@@ -37,7 +41,17 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
+    
     @IBAction func startButton(sender: AnyObject) {
+        guard usernameField.text != nil else {
+            return
+        }
+        
+        sendStartRequest()
         totalScore = 0
         gameStarted = true
         self.scoreLabel.text = String(self.totalScore)
@@ -96,6 +110,7 @@ class ViewController: UIViewController {
     
     private func throwEventDetected() {
         totalScore += 1
+        sendIncrementRequest()
         dispatch_async(dispatch_get_main_queue(), {
             self.scoreLabel.text = String(self.totalScore)
         })
@@ -111,6 +126,22 @@ class ViewController: UIViewController {
         coinPlayer?.numberOfLoops = 0
         coinPlayer?.prepareToPlay()
         coinPlayer?.play()
+    }
+    
+    private func sendStartRequest() {
+        HTTPGet("http://home.herlaang.com:5000/new?name=" + usernameField.text!, callback: {
+            (str1: String, str2: String?) in
+            print(str1)
+            print(str2)
+        })
+    }
+    
+    private func sendIncrementRequest() {
+        HTTPGet("http://home.herlaang.com:5000/increment", callback: {
+            (str1: String, str2: String?) in
+            print(str1)
+            print(str2)
+        })
     }
 }
 

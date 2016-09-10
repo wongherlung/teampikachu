@@ -31,16 +31,6 @@
                                 <rect key="frame" x="188" y="206" width="39" height="30"/>
                                 <state key="normal" title="STOP"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K52-4T-fFZ">
-                                <rect key="frame" x="107" y="316" width="200" height="177"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="mFo-S4-M63"/>
-                                    <constraint firstAttribute="height" constant="177" id="rME-ld-nfy"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="99"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40o-7f-Aqj">
                                 <rect key="frame" x="188" y="206" width="39" height="30"/>
                                 <constraints>
@@ -52,21 +42,44 @@
                                     <action selector="stopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHQ-gA-nxw"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RNs-NM-Wk6">
+                                <rect key="frame" x="68" y="294" width="279" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="5z6-iM-TxS"/>
+                                    <constraint firstAttribute="height" constant="30" id="rYo-Mp-5ja"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K52-4T-fFZ">
+                                <rect key="frame" x="107" y="349" width="200" height="177"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Ao4-9Q-hca"/>
+                                    <constraint firstAttribute="height" constant="177" id="jvg-CA-kYY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="99"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="K52-4T-fFZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Ai-Em-Jzf"/>
                             <constraint firstItem="LY4-em-Z05" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="45m-zU-tps"/>
+                            <constraint firstItem="RNs-NM-Wk6" firstAttribute="top" secondItem="40o-7f-Aqj" secondAttribute="bottom" constant="58" id="6Pd-wF-Fes"/>
                             <constraint firstItem="40o-7f-Aqj" firstAttribute="top" secondItem="LY4-em-Z05" secondAttribute="bottom" constant="69" id="I3t-pQ-2SV"/>
+                            <constraint firstItem="K52-4T-fFZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q32-oj-d7c"/>
                             <constraint firstItem="Tbq-vO-2PZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WdU-bI-IIO"/>
                             <constraint firstItem="40o-7f-Aqj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YRM-gY-4SO"/>
-                            <constraint firstItem="K52-4T-fFZ" firstAttribute="top" secondItem="40o-7f-Aqj" secondAttribute="bottom" constant="80" id="jqr-Ku-iL5"/>
+                            <constraint firstItem="K52-4T-fFZ" firstAttribute="top" secondItem="RNs-NM-Wk6" secondAttribute="bottom" constant="25" id="iUa-8g-AiE"/>
+                            <constraint firstItem="RNs-NM-Wk6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sxV-N4-tHH"/>
                             <constraint firstItem="LY4-em-Z05" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="87" id="uGG-YO-Zbu"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="scoreLabel" destination="K52-4T-fFZ" id="Vqy-tX-tWO"/>
+                        <outlet property="usernameField" destination="RNs-NM-Wk6" id="tqz-Ww-XBf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

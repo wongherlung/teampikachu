@@ -113,15 +113,18 @@ SWIFT_CLASS("_TtC7Junking11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UITextField;
 @class UILabel;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7Junking14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified usernameField;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified scoreLabel;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)dismissKeyboard;
 - (IBAction)startButton:(id _Nonnull)sender;
 - (IBAction)stopButton:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
