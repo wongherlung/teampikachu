@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'add', to: 'add_bottles#new'
+
   get 'welcome/index'
 
   root 'welcome#index'
