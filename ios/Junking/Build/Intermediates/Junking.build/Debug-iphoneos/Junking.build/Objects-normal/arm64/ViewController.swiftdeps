@@ -6,48 +6,52 @@ provides-nominal:
 provides-member:
 - ["C7Junking14ViewController", ""]
 provides-dynamic-lookup:
-- "startButton"
-- "usernameField"
-- "stopButton"
-- "didReceiveMemoryWarning"
 - "viewDidLoad"
+- "prepareForSegue"
+- "stopButton"
+- "startButton"
+- "didReceiveMemoryWarning"
 - "dismissKeyboard"
+- "usernameField"
+- "myUnwindAction"
 - "scoreLabel"
 depends-top-level:
-- "UITextField"
 - !private "+"
-- !private "GPUImageMotionDetector"
-- !private "&&"
-- !private "NSURL"
-- "AVCaptureSessionPreset640x480"
-- !private "HTTPGet"
 - "AVAudioPlayer"
-- "Bool"
-- "BooleanLiteralType"
-- !private "dispatch_async"
-- !private "UITapGestureRecognizer"
-- "GPUImageVideoCamera"
-- "UIViewController"
-- "CGRect"
-- !private "StringLiteralType"
-- "GPUImageView"
-- "Int"
-- !private "CMTime"
-- !private "+="
-- !private "UnicodeScalarType"
-- !private "/"
-- !private ">="
+- !private "NSURL"
+- !private "&&"
 - "ViewController"
-- "UILabel"
-- !private "UIInterfaceOrientation"
+- !private "GPUImageMotionDetector"
+- !private "UITapGestureRecognizer"
 - !private "dispatch_get_main_queue"
-- !private "print"
+- !private "dispatch_async"
+- "AVCaptureSessionPreset640x480"
+- "UITextField"
 - "CGFloat"
-- !private "String"
+- "GPUImageVideoCamera"
 - "AnyObject"
+- "BooleanLiteralType"
+- !private "+="
+- "UIStoryboardSegue"
+- !private "print"
+- !private "QRCodeViewController"
+- !private "CMTime"
+- !private "UIInterfaceOrientation"
+- !private "/"
+- "CGRect"
+- "Int"
+- "GPUImageView"
+- !private ">="
+- "UIViewController"
+- "UILabel"
+- !private "StringLiteralType"
+- !private "=="
+- !private "String"
+- !private "UnicodeScalarType"
 - !private "CGPoint"
 - !private "NSBundle"
-- !private "=="
+- !private "HTTPGet"
+- "Bool"
 - !private "-"
 depends-member:
 - !private ["CSo13AVAudioPlayer", "init"]
@@ -83,6 +87,7 @@ depends-member:
 - !private ["Ps9AnyObject", "addSubview"]
 - !private ["Ps9AnyObject", "addTarget"]
 - ["Ps9AnyObject", "coinPlayer"]
+- !private ["Ps9AnyObject", "destinationViewController"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
 - ["Ps9AnyObject", "dismissKeyboard"]
 - !private ["Ps9AnyObject", "dispatch_async"]
@@ -90,6 +95,7 @@ depends-member:
 - !private ["Ps9AnyObject", "endEditing"]
 - ["Ps9AnyObject", "gameStarted"]
 - !private ["Ps9AnyObject", "hidden"]
+- !private ["Ps9AnyObject", "identifier"]
 - ["Ps9AnyObject", "init"]
 - ["Ps9AnyObject", "initCamera"]
 - !private ["Ps9AnyObject", "mainBundle"]
@@ -98,13 +104,16 @@ depends-member:
 - !private ["Ps9AnyObject", "motionDetectionBlock"]
 - ["Ps9AnyObject", "motionDetectionCount"]
 - ["Ps9AnyObject", "motionIntensityThreshold"]
+- ["Ps9AnyObject", "myUnwindAction"]
 - !private ["Ps9AnyObject", "numberOfLoops"]
 - !private ["Ps9AnyObject", "outputImageOrientation"]
 - !private ["Ps9AnyObject", "pathForResource"]
 - !private ["Ps9AnyObject", "play"]
 - ["Ps9AnyObject", "playCoinSound"]
+- ["Ps9AnyObject", "prepareForSegue"]
 - !private ["Ps9AnyObject", "prepareToPlay"]
 - !private ["Ps9AnyObject", "print"]
+- !private ["Ps9AnyObject", "score"]
 - ["Ps9AnyObject", "scoreLabel"]
 - ["Ps9AnyObject", "sendIncrementRequest"]
 - ["Ps9AnyObject", "sendStartRequest"]
@@ -152,6 +161,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "addSubview"]
 - !private ["Ps11CVarArgType", "addTarget"]
 - ["Ps11CVarArgType", "coinPlayer"]
+- !private ["Ps11CVarArgType", "destinationViewController"]
 - ["Ps11CVarArgType", "didReceiveMemoryWarning"]
 - ["Ps11CVarArgType", "dismissKeyboard"]
 - !private ["Ps11CVarArgType", "dispatch_async"]
@@ -159,6 +169,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "endEditing"]
 - ["Ps11CVarArgType", "gameStarted"]
 - !private ["Ps11CVarArgType", "hidden"]
+- !private ["Ps11CVarArgType", "identifier"]
 - ["Ps11CVarArgType", "init"]
 - ["Ps11CVarArgType", "initCamera"]
 - !private ["Ps11CVarArgType", "mainBundle"]
@@ -167,13 +178,16 @@ depends-member:
 - !private ["Ps11CVarArgType", "motionDetectionBlock"]
 - ["Ps11CVarArgType", "motionDetectionCount"]
 - ["Ps11CVarArgType", "motionIntensityThreshold"]
+- ["Ps11CVarArgType", "myUnwindAction"]
 - !private ["Ps11CVarArgType", "numberOfLoops"]
 - !private ["Ps11CVarArgType", "outputImageOrientation"]
 - !private ["Ps11CVarArgType", "pathForResource"]
 - !private ["Ps11CVarArgType", "play"]
 - ["Ps11CVarArgType", "playCoinSound"]
+- ["Ps11CVarArgType", "prepareForSegue"]
 - !private ["Ps11CVarArgType", "prepareToPlay"]
 - !private ["Ps11CVarArgType", "print"]
+- !private ["Ps11CVarArgType", "score"]
 - ["Ps11CVarArgType", "scoreLabel"]
 - ["Ps11CVarArgType", "sendIncrementRequest"]
 - ["Ps11CVarArgType", "sendStartRequest"]
@@ -214,6 +228,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "addSubview"]
 - !private ["Ps28CustomDebugStringConvertible", "addTarget"]
 - ["Ps28CustomDebugStringConvertible", "coinPlayer"]
+- !private ["Ps28CustomDebugStringConvertible", "destinationViewController"]
 - ["Ps28CustomDebugStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps28CustomDebugStringConvertible", "dismissKeyboard"]
 - !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
@@ -221,6 +236,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "endEditing"]
 - ["Ps28CustomDebugStringConvertible", "gameStarted"]
 - !private ["Ps28CustomDebugStringConvertible", "hidden"]
+- !private ["Ps28CustomDebugStringConvertible", "identifier"]
 - ["Ps28CustomDebugStringConvertible", "init"]
 - ["Ps28CustomDebugStringConvertible", "initCamera"]
 - !private ["Ps28CustomDebugStringConvertible", "mainBundle"]
@@ -229,13 +245,16 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "motionDetectionBlock"]
 - ["Ps28CustomDebugStringConvertible", "motionDetectionCount"]
 - ["Ps28CustomDebugStringConvertible", "motionIntensityThreshold"]
+- ["Ps28CustomDebugStringConvertible", "myUnwindAction"]
 - !private ["Ps28CustomDebugStringConvertible", "numberOfLoops"]
 - !private ["Ps28CustomDebugStringConvertible", "outputImageOrientation"]
 - !private ["Ps28CustomDebugStringConvertible", "pathForResource"]
 - !private ["Ps28CustomDebugStringConvertible", "play"]
 - ["Ps28CustomDebugStringConvertible", "playCoinSound"]
+- ["Ps28CustomDebugStringConvertible", "prepareForSegue"]
 - !private ["Ps28CustomDebugStringConvertible", "prepareToPlay"]
 - !private ["Ps28CustomDebugStringConvertible", "print"]
+- !private ["Ps28CustomDebugStringConvertible", "score"]
 - ["Ps28CustomDebugStringConvertible", "scoreLabel"]
 - ["Ps28CustomDebugStringConvertible", "sendIncrementRequest"]
 - ["Ps28CustomDebugStringConvertible", "sendStartRequest"]
@@ -273,6 +292,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "addSubview"]
 - !private ["Ps23CustomStringConvertible", "addTarget"]
 - ["Ps23CustomStringConvertible", "coinPlayer"]
+- !private ["Ps23CustomStringConvertible", "destinationViewController"]
 - ["Ps23CustomStringConvertible", "didReceiveMemoryWarning"]
 - ["Ps23CustomStringConvertible", "dismissKeyboard"]
 - !private ["Ps23CustomStringConvertible", "dispatch_async"]
@@ -280,6 +300,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "endEditing"]
 - ["Ps23CustomStringConvertible", "gameStarted"]
 - !private ["Ps23CustomStringConvertible", "hidden"]
+- !private ["Ps23CustomStringConvertible", "identifier"]
 - ["Ps23CustomStringConvertible", "init"]
 - ["Ps23CustomStringConvertible", "initCamera"]
 - !private ["Ps23CustomStringConvertible", "mainBundle"]
@@ -288,13 +309,16 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "motionDetectionBlock"]
 - ["Ps23CustomStringConvertible", "motionDetectionCount"]
 - ["Ps23CustomStringConvertible", "motionIntensityThreshold"]
+- ["Ps23CustomStringConvertible", "myUnwindAction"]
 - !private ["Ps23CustomStringConvertible", "numberOfLoops"]
 - !private ["Ps23CustomStringConvertible", "outputImageOrientation"]
 - !private ["Ps23CustomStringConvertible", "pathForResource"]
 - !private ["Ps23CustomStringConvertible", "play"]
 - ["Ps23CustomStringConvertible", "playCoinSound"]
+- ["Ps23CustomStringConvertible", "prepareForSegue"]
 - !private ["Ps23CustomStringConvertible", "prepareToPlay"]
 - !private ["Ps23CustomStringConvertible", "print"]
+- !private ["Ps23CustomStringConvertible", "score"]
 - ["Ps23CustomStringConvertible", "scoreLabel"]
 - ["Ps23CustomStringConvertible", "sendIncrementRequest"]
 - ["Ps23CustomStringConvertible", "sendStartRequest"]
@@ -334,6 +358,7 @@ depends-member:
 - !private ["Ps9Equatable", "addSubview"]
 - !private ["Ps9Equatable", "addTarget"]
 - ["Ps9Equatable", "coinPlayer"]
+- !private ["Ps9Equatable", "destinationViewController"]
 - ["Ps9Equatable", "didReceiveMemoryWarning"]
 - ["Ps9Equatable", "dismissKeyboard"]
 - !private ["Ps9Equatable", "dispatch_async"]
@@ -341,6 +366,7 @@ depends-member:
 - !private ["Ps9Equatable", "endEditing"]
 - ["Ps9Equatable", "gameStarted"]
 - !private ["Ps9Equatable", "hidden"]
+- !private ["Ps9Equatable", "identifier"]
 - ["Ps9Equatable", "init"]
 - ["Ps9Equatable", "initCamera"]
 - !private ["Ps9Equatable", "mainBundle"]
@@ -349,13 +375,16 @@ depends-member:
 - !private ["Ps9Equatable", "motionDetectionBlock"]
 - ["Ps9Equatable", "motionDetectionCount"]
 - ["Ps9Equatable", "motionIntensityThreshold"]
+- ["Ps9Equatable", "myUnwindAction"]
 - !private ["Ps9Equatable", "numberOfLoops"]
 - !private ["Ps9Equatable", "outputImageOrientation"]
 - !private ["Ps9Equatable", "pathForResource"]
 - !private ["Ps9Equatable", "play"]
 - ["Ps9Equatable", "playCoinSound"]
+- ["Ps9Equatable", "prepareForSegue"]
 - !private ["Ps9Equatable", "prepareToPlay"]
 - !private ["Ps9Equatable", "print"]
+- !private ["Ps9Equatable", "score"]
 - ["Ps9Equatable", "scoreLabel"]
 - ["Ps9Equatable", "sendIncrementRequest"]
 - ["Ps9Equatable", "sendStartRequest"]
@@ -426,6 +455,7 @@ depends-member:
 - !private ["Ps8Hashable", "addSubview"]
 - !private ["Ps8Hashable", "addTarget"]
 - ["Ps8Hashable", "coinPlayer"]
+- !private ["Ps8Hashable", "destinationViewController"]
 - ["Ps8Hashable", "didReceiveMemoryWarning"]
 - ["Ps8Hashable", "dismissKeyboard"]
 - !private ["Ps8Hashable", "dispatch_async"]
@@ -433,6 +463,7 @@ depends-member:
 - !private ["Ps8Hashable", "endEditing"]
 - ["Ps8Hashable", "gameStarted"]
 - !private ["Ps8Hashable", "hidden"]
+- !private ["Ps8Hashable", "identifier"]
 - ["Ps8Hashable", "init"]
 - ["Ps8Hashable", "initCamera"]
 - !private ["Ps8Hashable", "mainBundle"]
@@ -441,13 +472,16 @@ depends-member:
 - !private ["Ps8Hashable", "motionDetectionBlock"]
 - ["Ps8Hashable", "motionDetectionCount"]
 - ["Ps8Hashable", "motionIntensityThreshold"]
+- ["Ps8Hashable", "myUnwindAction"]
 - !private ["Ps8Hashable", "numberOfLoops"]
 - !private ["Ps8Hashable", "outputImageOrientation"]
 - !private ["Ps8Hashable", "pathForResource"]
 - !private ["Ps8Hashable", "play"]
 - ["Ps8Hashable", "playCoinSound"]
+- ["Ps8Hashable", "prepareForSegue"]
 - !private ["Ps8Hashable", "prepareToPlay"]
 - !private ["Ps8Hashable", "print"]
+- !private ["Ps8Hashable", "score"]
 - ["Ps8Hashable", "scoreLabel"]
 - ["Ps8Hashable", "sendIncrementRequest"]
 - ["Ps8Hashable", "sendStartRequest"]
@@ -507,8 +541,11 @@ depends-member:
 - ["PSo8NSCoding", "minimumDuration"]
 - ["PSo8NSCoding", "motionDetectionCount"]
 - ["PSo8NSCoding", "motionIntensityThreshold"]
+- ["PSo8NSCoding", "myUnwindAction"]
 - ["PSo8NSCoding", "playCoinSound"]
+- ["PSo8NSCoding", "prepareForSegue"]
 - !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "score"]
 - ["PSo8NSCoding", "scoreLabel"]
 - ["PSo8NSCoding", "sendIncrementRequest"]
 - ["PSo8NSCoding", "sendStartRequest"]
@@ -552,8 +589,11 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "minimumDuration"]
 - ["PSo26NSExtensionRequestHandling", "motionDetectionCount"]
 - ["PSo26NSExtensionRequestHandling", "motionIntensityThreshold"]
+- ["PSo26NSExtensionRequestHandling", "myUnwindAction"]
 - ["PSo26NSExtensionRequestHandling", "playCoinSound"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
+- !private ["PSo26NSExtensionRequestHandling", "score"]
 - ["PSo26NSExtensionRequestHandling", "scoreLabel"]
 - ["PSo26NSExtensionRequestHandling", "sendIncrementRequest"]
 - ["PSo26NSExtensionRequestHandling", "sendStartRequest"]
@@ -584,15 +624,18 @@ depends-member:
 - ["CSo8NSObject", "Int"]
 - !private ["CSo8NSObject", "NSBundle"]
 - !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "QRCodeViewController"]
 - !private ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIInterfaceOrientation"]
 - ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
 - !private ["CSo8NSObject", "UITapGestureRecognizer"]
 - ["CSo8NSObject", "UITextField"]
 - !private ["CSo8NSObject", "addGestureRecognizer"]
 - !private ["CSo8NSObject", "addSubview"]
 - !private ["CSo8NSObject", "addTarget"]
 - ["CSo8NSObject", "coinPlayer"]
+- !private ["CSo8NSObject", "destinationViewController"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - ["CSo8NSObject", "dismissKeyboard"]
 - !private ["CSo8NSObject", "dispatch_async"]
@@ -600,6 +643,7 @@ depends-member:
 - !private ["CSo8NSObject", "endEditing"]
 - ["CSo8NSObject", "gameStarted"]
 - !private ["CSo8NSObject", "hidden"]
+- !private ["CSo8NSObject", "identifier"]
 - ["CSo8NSObject", "init"]
 - ["CSo8NSObject", "initCamera"]
 - !private ["CSo8NSObject", "mainBundle"]
@@ -608,13 +652,16 @@ depends-member:
 - !private ["CSo8NSObject", "motionDetectionBlock"]
 - ["CSo8NSObject", "motionDetectionCount"]
 - ["CSo8NSObject", "motionIntensityThreshold"]
+- ["CSo8NSObject", "myUnwindAction"]
 - !private ["CSo8NSObject", "numberOfLoops"]
 - !private ["CSo8NSObject", "outputImageOrientation"]
 - !private ["CSo8NSObject", "pathForResource"]
 - !private ["CSo8NSObject", "play"]
 - ["CSo8NSObject", "playCoinSound"]
+- ["CSo8NSObject", "prepareForSegue"]
 - !private ["CSo8NSObject", "prepareToPlay"]
 - !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "score"]
 - ["CSo8NSObject", "scoreLabel"]
 - ["CSo8NSObject", "sendIncrementRequest"]
 - ["CSo8NSObject", "sendStartRequest"]
@@ -648,6 +695,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "addSubview"]
 - !private ["PSo16NSObjectProtocol", "addTarget"]
 - ["PSo16NSObjectProtocol", "coinPlayer"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - ["PSo16NSObjectProtocol", "dismissKeyboard"]
 - !private ["PSo16NSObjectProtocol", "dispatch_async"]
@@ -655,6 +703,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "endEditing"]
 - ["PSo16NSObjectProtocol", "gameStarted"]
 - !private ["PSo16NSObjectProtocol", "hidden"]
+- !private ["PSo16NSObjectProtocol", "identifier"]
 - ["PSo16NSObjectProtocol", "init"]
 - ["PSo16NSObjectProtocol", "initCamera"]
 - !private ["PSo16NSObjectProtocol", "mainBundle"]
@@ -663,13 +712,16 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "motionDetectionBlock"]
 - ["PSo16NSObjectProtocol", "motionDetectionCount"]
 - ["PSo16NSObjectProtocol", "motionIntensityThreshold"]
+- ["PSo16NSObjectProtocol", "myUnwindAction"]
 - !private ["PSo16NSObjectProtocol", "numberOfLoops"]
 - !private ["PSo16NSObjectProtocol", "outputImageOrientation"]
 - !private ["PSo16NSObjectProtocol", "pathForResource"]
 - !private ["PSo16NSObjectProtocol", "play"]
 - ["PSo16NSObjectProtocol", "playCoinSound"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
 - !private ["PSo16NSObjectProtocol", "prepareToPlay"]
 - !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "score"]
 - ["PSo16NSObjectProtocol", "scoreLabel"]
 - ["PSo16NSObjectProtocol", "sendIncrementRequest"]
 - ["PSo16NSObjectProtocol", "sendStartRequest"]
@@ -696,6 +748,7 @@ depends-member:
 - !private ["Sq", "deinit"]
 - !private ["Ps16OutputStreamType", "init"]
 - !private ["Ps16OutputStreamType", "stringByReplacingOccurrencesOfString"]
+- !private ["C7Junking20QRCodeViewController", "score"]
 - !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
 - ["Ps16RawRepresentable", "Back"]
 - !private ["Ps16RawRepresentable", "Portrait"]
@@ -755,8 +808,11 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "minimumDuration"]
 - ["PSo21UIAppearanceContainer", "motionDetectionCount"]
 - ["PSo21UIAppearanceContainer", "motionIntensityThreshold"]
+- ["PSo21UIAppearanceContainer", "myUnwindAction"]
 - ["PSo21UIAppearanceContainer", "playCoinSound"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
 - !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "score"]
 - ["PSo21UIAppearanceContainer", "scoreLabel"]
 - ["PSo21UIAppearanceContainer", "sendIncrementRequest"]
 - ["PSo21UIAppearanceContainer", "sendStartRequest"]
@@ -797,8 +853,11 @@ depends-member:
 - ["PSo18UIContentContainer", "minimumDuration"]
 - ["PSo18UIContentContainer", "motionDetectionCount"]
 - ["PSo18UIContentContainer", "motionIntensityThreshold"]
+- ["PSo18UIContentContainer", "myUnwindAction"]
 - ["PSo18UIContentContainer", "playCoinSound"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
 - !private ["PSo18UIContentContainer", "print"]
+- !private ["PSo18UIContentContainer", "score"]
 - ["PSo18UIContentContainer", "scoreLabel"]
 - ["PSo18UIContentContainer", "sendIncrementRequest"]
 - ["PSo18UIContentContainer", "sendStartRequest"]
@@ -855,8 +914,11 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "minimumDuration"]
 - ["PSo18UIFocusEnvironment", "motionDetectionCount"]
 - ["PSo18UIFocusEnvironment", "motionIntensityThreshold"]
+- ["PSo18UIFocusEnvironment", "myUnwindAction"]
 - ["PSo18UIFocusEnvironment", "playCoinSound"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
 - !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "score"]
 - ["PSo18UIFocusEnvironment", "scoreLabel"]
 - ["PSo18UIFocusEnvironment", "sendIncrementRequest"]
 - ["PSo18UIFocusEnvironment", "sendStartRequest"]
@@ -891,9 +953,11 @@ depends-member:
 - ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "NSBundle"]
 - !private ["CSo11UIResponder", "NSURL"]
+- !private ["CSo11UIResponder", "QRCodeViewController"]
 - !private ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIInterfaceOrientation"]
 - ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
 - !private ["CSo11UIResponder", "UITapGestureRecognizer"]
 - ["CSo11UIResponder", "UITextField"]
 - !private ["CSo11UIResponder", "addGestureRecognizer"]
@@ -912,8 +976,11 @@ depends-member:
 - ["CSo11UIResponder", "minimumDuration"]
 - ["CSo11UIResponder", "motionDetectionCount"]
 - ["CSo11UIResponder", "motionIntensityThreshold"]
+- ["CSo11UIResponder", "myUnwindAction"]
 - ["CSo11UIResponder", "playCoinSound"]
+- ["CSo11UIResponder", "prepareForSegue"]
 - !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "score"]
 - ["CSo11UIResponder", "scoreLabel"]
 - ["CSo11UIResponder", "sendIncrementRequest"]
 - ["CSo11UIResponder", "sendStartRequest"]
@@ -953,8 +1020,11 @@ depends-member:
 - ["PSo16UIStateRestoring", "minimumDuration"]
 - ["PSo16UIStateRestoring", "motionDetectionCount"]
 - ["PSo16UIStateRestoring", "motionIntensityThreshold"]
+- ["PSo16UIStateRestoring", "myUnwindAction"]
 - ["PSo16UIStateRestoring", "playCoinSound"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
 - !private ["PSo16UIStateRestoring", "print"]
+- !private ["PSo16UIStateRestoring", "score"]
 - ["PSo16UIStateRestoring", "scoreLabel"]
 - ["PSo16UIStateRestoring", "sendIncrementRequest"]
 - ["PSo16UIStateRestoring", "sendStartRequest"]
@@ -969,6 +1039,8 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "view"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
+- !private ["CSo17UIStoryboardSegue", "identifier"]
 - !private ["CSo22UITapGestureRecognizer", "init"]
 - !private ["CSo11UITextField", "text"]
 - !private ["PSo11UITextInput", "text"]
@@ -1002,8 +1074,11 @@ depends-member:
 - ["PSo18UITraitEnvironment", "minimumDuration"]
 - ["PSo18UITraitEnvironment", "motionDetectionCount"]
 - ["PSo18UITraitEnvironment", "motionIntensityThreshold"]
+- ["PSo18UITraitEnvironment", "myUnwindAction"]
 - ["PSo18UITraitEnvironment", "playCoinSound"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
 - !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "score"]
 - ["PSo18UITraitEnvironment", "scoreLabel"]
 - ["PSo18UITraitEnvironment", "sendIncrementRequest"]
 - ["PSo18UITraitEnvironment", "sendStartRequest"]
@@ -1040,12 +1115,15 @@ depends-member:
 - ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "NSBundle"]
 - !private ["CSo16UIViewController", "NSURL"]
+- !private ["CSo16UIViewController", "QRCodeViewController"]
 - !private ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIInterfaceOrientation"]
 - ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
 - !private ["CSo16UIViewController", "UITapGestureRecognizer"]
 - ["CSo16UIViewController", "UITextField"]
 - ["CSo16UIViewController", "coinPlayer"]
+- !private ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - ["CSo16UIViewController", "dismissKeyboard"]
 - !private ["CSo16UIViewController", "dispatch_async"]
@@ -1057,8 +1135,11 @@ depends-member:
 - ["CSo16UIViewController", "minimumDuration"]
 - ["CSo16UIViewController", "motionDetectionCount"]
 - ["CSo16UIViewController", "motionIntensityThreshold"]
+- ["CSo16UIViewController", "myUnwindAction"]
 - ["CSo16UIViewController", "playCoinSound"]
+- ["CSo16UIViewController", "prepareForSegue"]
 - !private ["CSo16UIViewController", "print"]
+- !private ["CSo16UIViewController", "score"]
 - ["CSo16UIViewController", "scoreLabel"]
 - ["CSo16UIViewController", "sendIncrementRequest"]
 - ["CSo16UIViewController", "sendStartRequest"]
@@ -1090,9 +1171,11 @@ depends-member:
 - ["C7Junking14ViewController", "Int"]
 - !private ["C7Junking14ViewController", "NSBundle"]
 - !private ["C7Junking14ViewController", "NSURL"]
+- !private ["C7Junking14ViewController", "QRCodeViewController"]
 - !private ["C7Junking14ViewController", "String"]
 - !private ["C7Junking14ViewController", "UIInterfaceOrientation"]
 - ["C7Junking14ViewController", "UILabel"]
+- ["C7Junking14ViewController", "UIStoryboardSegue"]
 - !private ["C7Junking14ViewController", "UITapGestureRecognizer"]
 - ["C7Junking14ViewController", "UITextField"]
 - !private ["C7Junking14ViewController", "coinPlayer"]
@@ -1108,7 +1191,9 @@ depends-member:
 - !private ["C7Junking14ViewController", "minimumDuration"]
 - !private ["C7Junking14ViewController", "motionDetectionCount"]
 - !private ["C7Junking14ViewController", "motionIntensityThreshold"]
+- ["C7Junking14ViewController", "myUnwindAction"]
 - !private ["C7Junking14ViewController", "playCoinSound"]
+- ["C7Junking14ViewController", "prepareForSegue"]
 - !private ["C7Junking14ViewController", "print"]
 - ["C7Junking14ViewController", "scoreLabel"]
 - !private ["C7Junking14ViewController", "sendIncrementRequest"]
@@ -1148,6 +1233,7 @@ depends-member:
 - !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
 - !private ["Ps21_ObjectiveCBridgeable", "init"]
 - !private ["Ps21_ObjectiveCBridgeable", "stringByReplacingOccurrencesOfString"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - !private ["Ps12_Reflectable", "IntegerLiteralType"]
 - !private ["Ps12_Reflectable", "Some"]
@@ -1211,6 +1297,7 @@ depends-nominal:
 - !private "Ps21NilLiteralConvertible"
 - !private "Sq"
 - !private "Ps16OutputStreamType"
+- !private "C7Junking20QRCodeViewController"
 - !private "Ps21RandomAccessIndexType"
 - "Ps16RawRepresentable"
 - !private "Ps17SignedIntegerType"
@@ -1234,6 +1321,7 @@ depends-nominal:
 - !private "CSo7UILabel"
 - "CSo11UIResponder"
 - "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
 - !private "CSo22UITapGestureRecognizer"
 - !private "CSo11UITextField"
 - !private "PSo11UITextInput"
@@ -1256,6 +1344,7 @@ depends-nominal:
 - !private "Ps22_IntegerArithmeticType"
 - !private "Ps12_IntegerType"
 - !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
 - !private "Ps22_RandomAccessAmbiguity"
 - "Ps12_Reflectable"
 - !private "Ps18_SignedIntegerType"
@@ -1440,4 +1529,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
-interface-hash: "4e19ad431efcb33a449b94bc4f40adcf"
+interface-hash: "b3edb0b7e9d145095e921d0170af49b6"

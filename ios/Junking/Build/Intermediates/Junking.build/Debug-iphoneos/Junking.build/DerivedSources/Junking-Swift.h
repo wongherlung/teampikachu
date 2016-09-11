@@ -113,17 +113,31 @@ SWIFT_CLASS("_TtC7Junking11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITextField;
-@class UILabel;
+@class UIImageView;
 @class NSBundle;
 @class NSCoder;
 
+SWIFT_CLASS("_TtC7Junking20QRCodeViewController")
+@interface QRCodeViewController : UIViewController
+@property (nonatomic) NSInteger score;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified QRImageView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIStoryboardSegue;
+@class UITextField;
+@class UILabel;
+
 SWIFT_CLASS("_TtC7Junking14ViewController")
 @interface ViewController : UIViewController
+- (IBAction)myUnwindAction:(UIStoryboardSegue * _Nonnull)unwindSegue;
 @property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified usernameField;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified scoreLabel;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Null_unspecified)sender;
 - (void)dismissKeyboard;
 - (IBAction)startButton:(id _Nonnull)sender;
 - (IBAction)stopButton:(id _Nonnull)sender;

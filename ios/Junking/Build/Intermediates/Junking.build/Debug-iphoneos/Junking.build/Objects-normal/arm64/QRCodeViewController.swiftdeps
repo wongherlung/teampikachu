@@ -1,0 +1,541 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "QRCodeViewController"
+provides-nominal:
+- "C7Junking20QRCodeViewController"
+provides-member:
+- ["C7Junking20QRCodeViewController", ""]
+provides-dynamic-lookup:
+- "QRImageView"
+- "score"
+- "viewDidLoad"
+depends-top-level:
+- !private "CIFilter"
+- "QRCodeViewController"
+- "UIViewController"
+- !private "BooleanLiteralType"
+- "UIImageView"
+- "Int"
+- !private "UIImage"
+- !private "UnicodeScalarType"
+- "CIImage"
+- !private "StringLiteralType"
+- !private "NSISOLatin1StringEncoding"
+depends-member:
+- !private ["Ps9AnyObject", "CIFilter"]
+- ["Ps9AnyObject", "CIImage"]
+- !private ["Ps9AnyObject", "NSISOLatin1StringEncoding"]
+- ["Ps9AnyObject", "QRImageView"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "dataUsingEncoding"]
+- !private ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "initQRCodeView"]
+- !private ["Ps9AnyObject", "outputImage"]
+- ["Ps9AnyObject", "qrcodeImage"]
+- ["Ps9AnyObject", "score"]
+- !private ["Ps9AnyObject", "setValue"]
+- ["Ps9AnyObject", "viewDidLoad"]
+- ["Ps9AnyObject", ""]
+- !private ["CSo8CIFilter", "init"]
+- !private ["CSo8CIFilter", "outputImage"]
+- !private ["CSo8CIFilter", "setValue"]
+- ["CSo7CIImage", "init"]
+- !private ["Ps11CVarArgType", "CIFilter"]
+- ["Ps11CVarArgType", "CIImage"]
+- !private ["Ps11CVarArgType", "NSISOLatin1StringEncoding"]
+- ["Ps11CVarArgType", "QRImageView"]
+- !private ["Ps11CVarArgType", "UIImage"]
+- !private ["Ps11CVarArgType", "dataUsingEncoding"]
+- !private ["Ps11CVarArgType", "image"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "initQRCodeView"]
+- !private ["Ps11CVarArgType", "outputImage"]
+- ["Ps11CVarArgType", "qrcodeImage"]
+- ["Ps11CVarArgType", "score"]
+- !private ["Ps11CVarArgType", "setValue"]
+- ["Ps11CVarArgType", "viewDidLoad"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "dataUsingEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "CIFilter"]
+- ["Ps28CustomDebugStringConvertible", "CIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "NSISOLatin1StringEncoding"]
+- ["Ps28CustomDebugStringConvertible", "QRImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImage"]
+- !private ["Ps28CustomDebugStringConvertible", "dataUsingEncoding"]
+- !private ["Ps28CustomDebugStringConvertible", "image"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "initQRCodeView"]
+- !private ["Ps28CustomDebugStringConvertible", "outputImage"]
+- ["Ps28CustomDebugStringConvertible", "qrcodeImage"]
+- ["Ps28CustomDebugStringConvertible", "score"]
+- !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CIFilter"]
+- ["Ps23CustomStringConvertible", "CIImage"]
+- !private ["Ps23CustomStringConvertible", "NSISOLatin1StringEncoding"]
+- ["Ps23CustomStringConvertible", "QRImageView"]
+- !private ["Ps23CustomStringConvertible", "UIImage"]
+- !private ["Ps23CustomStringConvertible", "dataUsingEncoding"]
+- !private ["Ps23CustomStringConvertible", "image"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "initQRCodeView"]
+- !private ["Ps23CustomStringConvertible", "outputImage"]
+- ["Ps23CustomStringConvertible", "qrcodeImage"]
+- ["Ps23CustomStringConvertible", "score"]
+- !private ["Ps23CustomStringConvertible", "setValue"]
+- ["Ps23CustomStringConvertible", "viewDidLoad"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CIFilter"]
+- ["Ps9Equatable", "CIImage"]
+- !private ["Ps9Equatable", "NSISOLatin1StringEncoding"]
+- ["Ps9Equatable", "QRImageView"]
+- !private ["Ps9Equatable", "UIImage"]
+- !private ["Ps9Equatable", "dataUsingEncoding"]
+- !private ["Ps9Equatable", "image"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "initQRCodeView"]
+- !private ["Ps9Equatable", "outputImage"]
+- ["Ps9Equatable", "qrcodeImage"]
+- ["Ps9Equatable", "score"]
+- !private ["Ps9Equatable", "setValue"]
+- ["Ps9Equatable", "viewDidLoad"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps8Hashable", "CIFilter"]
+- ["Ps8Hashable", "CIImage"]
+- !private ["Ps8Hashable", "NSISOLatin1StringEncoding"]
+- ["Ps8Hashable", "QRImageView"]
+- !private ["Ps8Hashable", "UIImage"]
+- !private ["Ps8Hashable", "dataUsingEncoding"]
+- !private ["Ps8Hashable", "image"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "initQRCodeView"]
+- !private ["Ps8Hashable", "outputImage"]
+- ["Ps8Hashable", "qrcodeImage"]
+- ["Ps8Hashable", "score"]
+- !private ["Ps8Hashable", "setValue"]
+- ["Ps8Hashable", "viewDidLoad"]
+- ["Ps8Hashable", ""]
+- !private ["Ps14MirrorPathType", "dataUsingEncoding"]
+- !private ["PSo8NSCoding", "CIFilter"]
+- ["PSo8NSCoding", "CIImage"]
+- !private ["PSo8NSCoding", "NSISOLatin1StringEncoding"]
+- ["PSo8NSCoding", "QRImageView"]
+- !private ["PSo8NSCoding", "UIImage"]
+- !private ["PSo8NSCoding", "dataUsingEncoding"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "initQRCodeView"]
+- !private ["PSo8NSCoding", "outputImage"]
+- ["PSo8NSCoding", "qrcodeImage"]
+- ["PSo8NSCoding", "score"]
+- !private ["PSo8NSCoding", "setValue"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "dataUsingEncoding"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "outputImage"]
+- !private ["PSo9NSCopying", "setValue"]
+- !private ["PSo26NSExtensionRequestHandling", "CIFilter"]
+- ["PSo26NSExtensionRequestHandling", "CIImage"]
+- !private ["PSo26NSExtensionRequestHandling", "NSISOLatin1StringEncoding"]
+- ["PSo26NSExtensionRequestHandling", "QRImageView"]
+- !private ["PSo26NSExtensionRequestHandling", "UIImage"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "initQRCodeView"]
+- ["PSo26NSExtensionRequestHandling", "qrcodeImage"]
+- ["PSo26NSExtensionRequestHandling", "score"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "dataUsingEncoding"]
+- !private ["CSo8NSObject", "CIFilter"]
+- ["CSo8NSObject", "CIImage"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "NSISOLatin1StringEncoding"]
+- ["CSo8NSObject", "QRImageView"]
+- !private ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImageView"]
+- !private ["CSo8NSObject", "dataUsingEncoding"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "initQRCodeView"]
+- !private ["CSo8NSObject", "outputImage"]
+- ["CSo8NSObject", "qrcodeImage"]
+- ["CSo8NSObject", "score"]
+- !private ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "CIFilter"]
+- ["PSo16NSObjectProtocol", "CIImage"]
+- !private ["PSo16NSObjectProtocol", "NSISOLatin1StringEncoding"]
+- ["PSo16NSObjectProtocol", "QRImageView"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- !private ["PSo16NSObjectProtocol", "dataUsingEncoding"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "initQRCodeView"]
+- !private ["PSo16NSObjectProtocol", "outputImage"]
+- ["PSo16NSObjectProtocol", "qrcodeImage"]
+- ["PSo16NSObjectProtocol", "score"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "dataUsingEncoding"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "outputImage"]
+- !private ["PSo14NSSecureCoding", "setValue"]
+- !private ["CSo8NSString", "dataUsingEncoding"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "dataUsingEncoding"]
+- !private ["C7Junking20QRCodeViewController", "CIFilter"]
+- ["C7Junking20QRCodeViewController", "CIImage"]
+- ["C7Junking20QRCodeViewController", "Int"]
+- !private ["C7Junking20QRCodeViewController", "NSISOLatin1StringEncoding"]
+- ["C7Junking20QRCodeViewController", "QRImageView"]
+- !private ["C7Junking20QRCodeViewController", "UIImage"]
+- ["C7Junking20QRCodeViewController", "UIImageView"]
+- ["C7Junking20QRCodeViewController", "deinit"]
+- ["C7Junking20QRCodeViewController", "init"]
+- !private ["C7Junking20QRCodeViewController", "initQRCodeView"]
+- !private ["C7Junking20QRCodeViewController", "qrcodeImage"]
+- ["C7Junking20QRCodeViewController", "score"]
+- ["C7Junking20QRCodeViewController", "viewDidLoad"]
+- !private ["Ps10Streamable", "dataUsingEncoding"]
+- !private ["SS", "dataUsingEncoding"]
+- !private ["SS", "deinit"]
+- !private ["Ps30StringInterpolationConvertible", "dataUsingEncoding"]
+- !private ["Ps24StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo21UIAppearanceContainer", "CIFilter"]
+- ["PSo21UIAppearanceContainer", "CIImage"]
+- !private ["PSo21UIAppearanceContainer", "NSISOLatin1StringEncoding"]
+- ["PSo21UIAppearanceContainer", "QRImageView"]
+- !private ["PSo21UIAppearanceContainer", "UIImage"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "initQRCodeView"]
+- ["PSo21UIAppearanceContainer", "qrcodeImage"]
+- ["PSo21UIAppearanceContainer", "score"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "CIFilter"]
+- ["PSo18UIContentContainer", "CIImage"]
+- !private ["PSo18UIContentContainer", "NSISOLatin1StringEncoding"]
+- ["PSo18UIContentContainer", "QRImageView"]
+- !private ["PSo18UIContentContainer", "UIImage"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "initQRCodeView"]
+- ["PSo18UIContentContainer", "qrcodeImage"]
+- ["PSo18UIContentContainer", "score"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo18UIFocusEnvironment", "CIFilter"]
+- ["PSo18UIFocusEnvironment", "CIImage"]
+- !private ["PSo18UIFocusEnvironment", "NSISOLatin1StringEncoding"]
+- ["PSo18UIFocusEnvironment", "QRImageView"]
+- !private ["PSo18UIFocusEnvironment", "UIImage"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "initQRCodeView"]
+- ["PSo18UIFocusEnvironment", "qrcodeImage"]
+- ["PSo18UIFocusEnvironment", "score"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo7UIImage", "init"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIResponder", "CIFilter"]
+- ["CSo11UIResponder", "CIImage"]
+- ["CSo11UIResponder", "Int"]
+- !private ["CSo11UIResponder", "NSISOLatin1StringEncoding"]
+- ["CSo11UIResponder", "QRImageView"]
+- !private ["CSo11UIResponder", "UIImage"]
+- ["CSo11UIResponder", "UIImageView"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "initQRCodeView"]
+- ["CSo11UIResponder", "qrcodeImage"]
+- ["CSo11UIResponder", "score"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "CIFilter"]
+- ["PSo16UIStateRestoring", "CIImage"]
+- !private ["PSo16UIStateRestoring", "NSISOLatin1StringEncoding"]
+- ["PSo16UIStateRestoring", "QRImageView"]
+- !private ["PSo16UIStateRestoring", "UIImage"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "initQRCodeView"]
+- ["PSo16UIStateRestoring", "qrcodeImage"]
+- ["PSo16UIStateRestoring", "score"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "CIFilter"]
+- ["PSo18UITraitEnvironment", "CIImage"]
+- !private ["PSo18UITraitEnvironment", "NSISOLatin1StringEncoding"]
+- ["PSo18UITraitEnvironment", "QRImageView"]
+- !private ["PSo18UITraitEnvironment", "UIImage"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "initQRCodeView"]
+- ["PSo18UITraitEnvironment", "qrcodeImage"]
+- ["PSo18UITraitEnvironment", "score"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo16UIViewController", "CIFilter"]
+- ["CSo16UIViewController", "CIImage"]
+- ["CSo16UIViewController", "Int"]
+- !private ["CSo16UIViewController", "NSISOLatin1StringEncoding"]
+- ["CSo16UIViewController", "QRImageView"]
+- !private ["CSo16UIViewController", "UIImage"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "initQRCodeView"]
+- ["CSo16UIViewController", "qrcodeImage"]
+- ["CSo16UIViewController", "score"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["Ps12_Reflectable", "dataUsingEncoding"]
+- !private ["Ps12_Reflectable", "image"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "CSo8CIFilter"
+- "CSo7CIImage"
+- "Ps11CVarArgType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- "Ps8Hashable"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "Ps16OutputStreamType"
+- "C7Junking20QRCodeViewController"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo7UIImage"
+- !private "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePicture+TextureSubimage.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFramework.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMovieComposition.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFASTCornerDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageWeakPixelInclusionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageThreeInputFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSingleComponentGaussianBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDirectionalSobelEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDirectionalNonMaximumSuppressionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLuminanceRangeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageiOSBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLaplacianFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageZoomBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMotionBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePoissonBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTwoInputCrossTextureSamplingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLinearBurnBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLineGenerator.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageThresholdSketchFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageParallelCoordinateLineTransformFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHoughTransformLineDetector.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageThresholdedNonMaximumSuppressionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHalftoneFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMotionDetector.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHighPassFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLowPassFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageChromaKeyFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageWhiteBalanceFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAverageLuminanceThresholdFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLuminosity.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSolidColorGenerator.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAverageColor.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLanczosResamplingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLocalBinaryPatternFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePolkaDotFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDivideBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAddBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSoftEleganceFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMissEtikateFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAmatorkaFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLookupFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGlassSphereFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHueFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHSBFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFalseColorFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHighlightShadowFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageOpacityFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMonochromeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSphereRefractionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorPackingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBClosingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageClosingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBOpeningFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageOpeningFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBDilationFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDilationFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBErosionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageErosionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageShiTomasiFeatureDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageNobleCornerDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageToneCurveFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCrosshairGenerator.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBilateralFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMedianFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRGBFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageNonMaximumSuppressionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageNormalBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAlphaBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHarrisCornerDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageXYDerivativeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePrewittEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHistogramEqualizationFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHistogramGenerator.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHistogramFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMaskFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageThresholdEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCannyEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageEmbossFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImage3x3ConvolutionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTiltShiftFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMosaicFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageVoronoiConsumerFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageJFAVoronoiFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePerlinNoiseFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageStretchDistortionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePolarPixellateFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCGAColorspaceFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCrosshatchFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePinchDistortionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBulgeDistortionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageUnsharpMaskFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageAdaptiveThresholdFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBoxBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePosterizeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLuminanceThresholdFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHazeFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageChromaKeyBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTransformFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGrayscaleFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageCropFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLuminosityBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSaturationBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHueBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSoftLightBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageHardLightBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSubtractBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDifferenceBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageExclusionBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageScreenBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorDodgeBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorBurnBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSourceOverBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSwirlFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLightenBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDarkenBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageOverlayBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGaussianSelectiveBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGaussianBlurPositionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTwoPassTextureSamplingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGaussianBlurFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageVignetteFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageKuwaharaRadius3Filter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageKuwaharaFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageDissolveBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMultiplyBlendFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSmoothToonFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImage3x3TextureSamplingFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageToonFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSketchFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTwoPassFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSobelEdgeDetectionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageGammaFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSharpenFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageLevelsFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBrightnessFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageExposureFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageContrastFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSaturationFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorInvertFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageColorMatrixFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageSepiaFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePixellatePositionFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePixellateFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTwoInputFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageBuffer.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageUIElement.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTextureInput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFilter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFilterGroup.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageTextureOutput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFilterPipeline.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMovieWriter.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRawDataOutput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageRawDataInput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImagePicture.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageMovie.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageStillCamera.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageVideoCamera.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageView.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageOutput.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFramebufferCache.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageFramebuffer.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImageContext.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImage.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GLProgram.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImage-umbrella.h"
+- "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+interface-hash: "fb4828aed56a9779ef7f2e4e791f6103"
