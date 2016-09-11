@@ -40,6 +40,7 @@
                                 <state key="normal" title="STOP"/>
                                 <connections>
                                     <action selector="stopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHQ-gA-nxw"/>
+                                    <segue destination="pjB-mD-A7L" kind="show" identifier="showQRCodeView" id="HWH-w5-6ML"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RNs-NM-Wk6">
@@ -85,6 +86,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="575" y="330"/>
+        </scene>
+        <!--Code View Controller-->
+        <scene sceneID="f2T-oJ-EGZ">
+            <objects>
+                <viewController id="pjB-mD-A7L" customClass="QRCodeViewController" customModule="Junking" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xGp-TG-Adi"/>
+                        <viewControllerLayoutGuide type="bottom" id="htd-rZ-DBx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SwL-Wj-sN1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k1L-0p-lvo">
+                                <rect key="frame" x="187" y="437" width="40" height="30"/>
+                                <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="wZS-Bn-91Q" kind="unwind" unwindAction="myUnwindAction:" id="rVb-Tu-pDm"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OVP-Jx-hPf">
+                                <rect key="frame" x="87" y="122" width="240" height="240"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="k1L-0p-lvo" firstAttribute="centerX" secondItem="SwL-Wj-sN1" secondAttribute="centerX" id="SJm-kn-hXA"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="QRImageView" destination="OVP-Jx-hPf" id="vyP-bb-EAh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iAW-QP-tKn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="wZS-Bn-91Q" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1109" y="330"/>
         </scene>
     </scenes>
 </document>

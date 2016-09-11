@@ -4,7 +4,7 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers",
+      'name': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphonesimulator/GPUImage.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -14,7 +14,7 @@
         {
           'type': 'file',
           'name': "GPUImage-Swift.h",
-          'external-contents': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Headers/GPUImage-Swift.h"
+          'external-contents': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphonesimulator/GPUImage.framework/Headers/GPUImage-Swift.h"
         },
         {
           'type': 'file',
@@ -850,18 +850,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/GPUImage.framework/Modules",
+      'name': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphonesimulator/GPUImage.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Intermediates/Pods.build/Debug-iphoneos/GPUImage.build/module.modulemap"
+          'external-contents': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Intermediates/Pods.build/Debug-iphonesimulator/GPUImage.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/Pods_Junking.framework/Headers",
+      'name': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphonesimulator/Pods_Junking.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -871,18 +871,18 @@
         {
           'type': 'file',
           'name': "Pods_Junking-Swift.h",
-          'external-contents': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/Pods_Junking.framework/Headers/Pods_Junking-Swift.h"
+          'external-contents': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphonesimulator/Pods_Junking.framework/Headers/Pods_Junking-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphoneos/Pods_Junking.framework/Modules",
+      'name': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Products/Debug-iphonesimulator/Pods_Junking.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Junking.build/module.modulemap"
+          'external-contents': "/Users/wongherlung/Projects/nushackfest2016/ios/Junking/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Junking.build/module.modulemap"
         }
       ]
     }
