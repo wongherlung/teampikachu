@@ -12,6 +12,7 @@ import AVFoundation
 class QRCodeViewController: UIViewController {
     
     var score: Int = 0
+    var userName: String = ""
     private var qrcodeImage: CIImage! = CIImage()
     @IBOutlet weak var QRImageView: UIImageView!
     private var jackpotPlayer: AVAudioPlayer? = nil
@@ -23,8 +24,9 @@ class QRCodeViewController: UIViewController {
     }
     
     private func initQRCodeView() {
-        let data = "http://home.herlaang.com:5000".dataUsingEncoding(NSISOLatin1StringEncoding,
-                                                                     allowLossyConversion: false)
+        let info = "http://home.herlaang.com:5000/redeem?name=" + userName + "&recycled_product=" + String(score)
+        let data = info.dataUsingEncoding(NSISOLatin1StringEncoding,
+                                          allowLossyConversion: false)
         let filter = CIFilter(name: "CIQRCodeGenerator")
         filter!.setValue(data, forKey: "inputMessage")
         filter!.setValue("H", forKey: "inputCorrectionLevel")

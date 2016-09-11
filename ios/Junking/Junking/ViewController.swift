@@ -47,6 +47,11 @@ class ViewController: UIViewController {
             let qrView = segue.destinationViewController as! QRCodeViewController;
             qrView.score = totalScore
             
+            guard var name = usernameField.text else {
+                return
+            }
+            name = name.stringByReplacingOccurrencesOfString(" ", withString: "_")
+            qrView.userName = name
         }
     }
     
