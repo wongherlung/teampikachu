@@ -16,7 +16,6 @@ class QRCodeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(score)
         initQRCodeView()
     }
     
