@@ -19,7 +19,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY4-em-Z05">
                                 <rect key="frame" x="184" y="188" width="47" height="30"/>
-                                <state key="normal" title="START"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.77764782379999997" green="1" blue="0.78442438830000005" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CGh-hb-Bz1"/>
                                 </connections>
@@ -27,7 +29,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K52-4T-fFZ">
                                 <rect key="frame" x="107" y="401" width="200" height="177"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="99"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RNs-NM-Wk6">
@@ -41,7 +43,9 @@
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="40o-7f-Aqj">
                                 <rect key="frame" x="188" y="269" width="39" height="30"/>
-                                <state key="normal" title="STOP"/>
+                                <state key="normal" title="STOP">
+                                    <color key="titleColor" red="0.90196079019999997" green="0.59752516597090888" blue="0.6005928449589425" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="stopButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHQ-gA-nxw"/>
                                     <segue destination="pjB-mD-A7L" kind="show" identifier="showQRCodeView" id="HWH-w5-6ML"/>
@@ -54,11 +58,11 @@
                                     <constraint firstAttribute="height" constant="59" id="XlJ-yx-Zau"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="37"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.77764782384333953" green="1" blue="0.78442438832643657" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.23921568627450979" blue="0.68627450980392157" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="RNs-NM-Wk6" firstAttribute="top" secondItem="40o-7f-Aqj" secondAttribute="bottom" constant="54" id="3rb-CO-imP"/>
                             <constraint firstItem="RNs-NM-Wk6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="4zS-nX-RnX"/>

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		29844E8A1D8403770037FE2A /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29844E891D8403770037FE2A /* coin.wav */; };
 		29844E8C1D85011A0037FE2A /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29844E8B1D85011A0037FE2A /* QRCodeViewController.swift */; };
+		29844E901D8511240037FE2A /* slot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 29844E8F1D8511240037FE2A /* slot.wav */; };
 		29C82EE61D83ED7300CC519D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C82EE51D83ED7300CC519D /* Request.swift */; };
 		29CDBF401D83B1CD00838970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDBF3F1D83B1CD00838970 /* AppDelegate.swift */; };
 		29CDBF421D83B1CD00838970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CDBF411D83B1CD00838970 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		29844E891D8403770037FE2A /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin.wav; path = Junking/coin.wav; sourceTree = "<group>"; };
 		29844E8B1D85011A0037FE2A /* QRCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		29844E8F1D8511240037FE2A /* slot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = slot.wav; path = ../../../../Downloads/slot.wav; sourceTree = "<group>"; };
 		29C82EE51D83ED7300CC519D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		29CDBF3C1D83B1CD00838970 /* Junking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Junking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CDBF3F1D83B1CD00838970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		29CDBF331D83B1CD00838970 = {
 			isa = PBXGroup;
 			children = (
+				29844E8F1D8511240037FE2A /* slot.wav */,
 				29844E891D8403770037FE2A /* coin.wav */,
 				29CDBF3E1D83B1CD00838970 /* Junking */,
 				29CDBF3D1D83B1CD00838970 /* Products */,
@@ -162,6 +165,7 @@
 				29CDBF4A1D83B1CD00838970 /* LaunchScreen.storyboard in Resources */,
 				29CDBF471D83B1CD00838970 /* Assets.xcassets in Resources */,
 				29844E8A1D8403770037FE2A /* coin.wav in Resources */,
+				29844E901D8511240037FE2A /* slot.wav in Resources */,
 				29CDBF451D83B1CD00838970 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

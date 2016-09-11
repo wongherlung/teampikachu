@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YITAqpRHWObAzjuRCcp4GYCLaNY=
+			DLrSZBOt4Gn9QORu15A59mANqMM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RjVEph/QRDB8TrHq+z+rjMTxT1c=
+			iygsG3hOZ91bSdEkt0wK11IRFjw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/6tIhW/nGFHabx7lYWuHiZQMM4o=
+			SF0pzFa1X4zfFrSgmibnsBp9FJA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -71,14 +71,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V0CRYwbo3var0SMWJKlPfEu85r8=
+			/y9b+DLeBaAVza3Df3AIhP5MXRo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/GPUImage.framework/GPUImage</key>
 		<data>
-		B0xDpJfK5svBVKIqrrEbrEuhH9k=
+		TRfrl/eg2dMf/YoGu5F/OkxfJ6I=
 		</data>
 		<key>Frameworks/GPUImage.framework/Info.plist</key>
 		<data>
@@ -172,6 +172,10 @@
 		<data>
 		4giBq37zb87rDxIPwV8Qf0MiTlM=
 		</data>
+		<key>slot.wav</key>
+		<data>
+		hCQnGq+n/N5DlZRAuRfb1frZWsk=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -218,11 +222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YITAqpRHWObAzjuRCcp4GYCLaNY=
+			DLrSZBOt4Gn9QORu15A59mANqMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0R8yCu4g/nAcPi3HoitaQRNWjWUdZoakFLQl10Y/zo0=
+			VLQIKG8BbZOad9vVIdsqpPdCMclYw9duHMaEEeH2kKA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -244,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RjVEph/QRDB8TrHq+z+rjMTxT1c=
+			iygsG3hOZ91bSdEkt0wK11IRFjw=
 			</data>
 			<key>hash2</key>
 			<data>
-			BYhC6p697Puq3H2pHUNzn8xh4fhxSXLsmb9otM+zin8=
+			t+rSwBG5U0UnuE+WW3NHhCXTfr12UtfM6WTFIV85BHs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -257,11 +261,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/6tIhW/nGFHabx7lYWuHiZQMM4o=
+			SF0pzFa1X4zfFrSgmibnsBp9FJA=
 			</data>
 			<key>hash2</key>
 			<data>
-			4wWUnrGfXSksJShJWgeqn4CTN72/5NM37/QI/07GKNM=
+			vZ/pcFkWaBE15vKxqkyx3xmxM0nLrZn/w/hBSNZ116s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -270,11 +274,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V0CRYwbo3var0SMWJKlPfEu85r8=
+			/y9b+DLeBaAVza3Df3AIhP5MXRo=
 			</data>
 			<key>hash2</key>
 			<data>
-			27HTKnub/wPHOWD/TECg2Tq5fIvKsGz+TxcFmb9bl+s=
+			9/eWyylgyvzymH9+FLq9wJGopU5JJefYw8yPiwPmw9E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -283,11 +287,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B0xDpJfK5svBVKIqrrEbrEuhH9k=
+			TRfrl/eg2dMf/YoGu5F/OkxfJ6I=
 			</data>
 			<key>hash2</key>
 			<data>
-			G8U1zHpRxLsSma3RD0daKbuC4EuOscP+cTvDV8XUj0M=
+			94ch/H/bVfNtlfCektfd7lA8WkD9nJeN8rDAbCaFkqI=
 			</data>
 		</dict>
 		<key>Frameworks/GPUImage.framework/Info.plist</key>
@@ -519,6 +523,17 @@
 			<key>hash2</key>
 			<data>
 			RQlE+rMV4aqJDsDEWIOSawPI6/vpQ3zMx5rSYRDR2ec=
+			</data>
+		</dict>
+		<key>slot.wav</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hCQnGq+n/N5DlZRAuRfb1frZWsk=
+			</data>
+			<key>hash2</key>
+			<data>
+			0uvwIRY3O3XolSuukJAZ9Np17Uc/PMp6fs9KQV8AQ7E=
 			</data>
 		</dict>
 	</dict>

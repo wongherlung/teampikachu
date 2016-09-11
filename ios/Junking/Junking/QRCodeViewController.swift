@@ -7,16 +7,19 @@
 //
 
 import UIKit
+import AVFoundation
 
 class QRCodeViewController: UIViewController {
     
     var score: Int = 0
     private var qrcodeImage: CIImage! = CIImage()
     @IBOutlet weak var QRImageView: UIImageView!
+    private var jackpotPlayer: AVAudioPlayer? = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
         initQRCodeView()
+        playJackpotSound()
     }
     
     private func initQRCodeView() {
@@ -28,6 +31,17 @@ class QRCodeViewController: UIViewController {
         qrcodeImage = filter!.outputImage
         
         QRImageView.image = UIImage(CIImage: qrcodeImage)
+    }
+    
+    private func playJackpotSound() {
+        let coinSoundFile = NSURL(fileURLWithPath: NSBundle.mainBundle()
+            .pathForResource("slot", ofType: "wav")!)
+        
+        jackpotPlayer = try? AVAudioPlayer(contentsOfURL: coinSoundFile)
+        
+        jackpotPlayer?.numberOfLoops = 0
+        jackpotPlayer?.prepareToPlay()
+        jackpotPlayer?.play()
     }
     
 }
