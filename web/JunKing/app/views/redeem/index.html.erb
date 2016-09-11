@@ -1,0 +1,65 @@
+<% content_for :title do %>
+  Redeem
+<% end %>
+
+
+<div class="row">
+  <div class="col-xs-12 col-md-10 col-md-offset-1">
+		<h1>Thank you for recycling!</h1>
+		<p>Good job <%= @name %>! As thanks for helping out with our recycling efforts by recycling <b style="font-size: 1.25em;"><%= @recycled_product %></b> products, we are giving you a <b style="font-size: 1.25em;">$<%= number_with_precision(@voucher, :precision => 2) %> P&amp;G Voucher</b>!</p>
+		<p>To receive this voucher, please sign up or log in to your P&amp;G account where the voucher will be credited.</p>
+	</div>
+</div>
+<div class="row">
+  <div class="col-xs-12 col-md-10 col-md-offset-1">
+    <!-- Custom Tabs -->
+    <div class="nav-tabs-custom">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab_1" data-toggle="tab">Sign Up</a></li>
+        <li><a href="#tab_2" data-toggle="tab">Log In</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab_1">
+          <form role="form" action="/">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Repeat Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        	</form>
+        </div>
+        <!-- /.tab-pane -->
+        <div class="tab-pane" id="tab_2">
+          <form role="form" action="/">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email Address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Remember Me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Log In</button>
+        	</form>
+        </div>
+        <!-- /.tab-pane -->
+      </div>
+      <!-- /.tab-content -->
+    </div>
+    <!-- nav-tabs-custom -->
+  </div>
+  <!-- /.col -->
+</div>

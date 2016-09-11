@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'redeem', to: 'redeem#index'
+
   get 'rewards', to: 'rewards#index'
 
   get 'stats', to: 'stats#index'
