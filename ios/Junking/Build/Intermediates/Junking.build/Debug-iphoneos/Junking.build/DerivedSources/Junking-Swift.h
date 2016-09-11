@@ -120,6 +120,7 @@ SWIFT_CLASS("_TtC7Junking11AppDelegate")
 SWIFT_CLASS("_TtC7Junking20QRCodeViewController")
 @interface QRCodeViewController : UIViewController
 @property (nonatomic) NSInteger score;
+@property (nonatomic, copy) NSString * _Nonnull userName;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified QRImageView;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
