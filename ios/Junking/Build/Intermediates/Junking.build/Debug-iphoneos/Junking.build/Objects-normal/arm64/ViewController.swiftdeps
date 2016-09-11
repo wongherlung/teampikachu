@@ -6,53 +6,53 @@ provides-nominal:
 provides-member:
 - ["C7Junking14ViewController", ""]
 provides-dynamic-lookup:
+- "startButton"
 - "didReceiveMemoryWarning"
+- "scoreLabel"
+- "dismissKeyboard"
+- "prepareForSegue"
+- "myUnwindAction"
+- "viewDidLoad"
 - "usernameField"
 - "stopButton"
-- "scoreLabel"
-- "viewDidLoad"
-- "myUnwindAction"
-- "prepareForSegue"
-- "dismissKeyboard"
-- "startButton"
 depends-top-level:
-- "GPUImageVideoCamera"
-- "CGFloat"
-- !private "&&"
-- !private "dispatch_get_main_queue"
-- !private "dispatch_async"
-- !private "NSBundle"
-- !private "=="
-- "ViewController"
-- "AVCaptureSessionPreset640x480"
-- "UITextField"
-- !private "CGPoint"
-- !private "QRCodeViewController"
-- "Bool"
-- !private "UnicodeScalarType"
-- !private "/"
-- !private "CMTime"
-- !private ">="
-- !private "+="
-- !private "print"
-- !private "UITapGestureRecognizer"
-- "UIStoryboardSegue"
-- !private "StringLiteralType"
-- "AVAudioPlayer"
-- "UILabel"
-- "AnyObject"
-- "Int"
-- "GPUImageView"
 - !private "UIInterfaceOrientation"
-- "CGRect"
+- "UILabel"
+- "Int"
 - !private "GPUImageMotionDetector"
 - !private "+"
-- "BooleanLiteralType"
-- !private "-"
-- "UIViewController"
-- !private "HTTPGet"
+- "GPUImageView"
+- "UIStoryboardSegue"
+- !private "StringLiteralType"
+- !private "+="
+- "AVAudioPlayer"
 - !private "NSURL"
+- "UIViewController"
+- !private "NSBundle"
+- !private "=="
+- !private "print"
+- !private "UITapGestureRecognizer"
+- "CGRect"
+- "AnyObject"
+- !private "dispatch_get_main_queue"
+- !private "HTTPGet"
 - !private "String"
+- !private "dispatch_async"
+- "AVCaptureSessionPreset640x480"
+- !private "CGPoint"
+- !private ">="
+- !private "/"
+- !private "CMTime"
+- "BooleanLiteralType"
+- "ViewController"
+- "UITextField"
+- "CGFloat"
+- "GPUImageVideoCamera"
+- !private "-"
+- !private "&&"
+- "Bool"
+- !private "QRCodeViewController"
+- !private "UnicodeScalarType"
 depends-member:
 - !private ["CSo13AVAudioPlayer", "init"]
 - !private ["CSo13AVAudioPlayer", "numberOfLoops"]
@@ -125,6 +125,7 @@ depends-member:
 - !private ["Ps9AnyObject", "text"]
 - ["Ps9AnyObject", "throwEventDetected"]
 - ["Ps9AnyObject", "totalScore"]
+- !private ["Ps9AnyObject", "userName"]
 - ["Ps9AnyObject", "usernameField"]
 - ["Ps9AnyObject", "videoCamera"]
 - ["Ps9AnyObject", "videoView"]
@@ -199,6 +200,7 @@ depends-member:
 - !private ["Ps11CVarArgType", "text"]
 - ["Ps11CVarArgType", "throwEventDetected"]
 - ["Ps11CVarArgType", "totalScore"]
+- !private ["Ps11CVarArgType", "userName"]
 - ["Ps11CVarArgType", "usernameField"]
 - ["Ps11CVarArgType", "videoCamera"]
 - ["Ps11CVarArgType", "videoView"]
@@ -220,7 +222,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "HTTPGet"]
 - !private ["Ps28CustomDebugStringConvertible", "NSBundle"]
 - !private ["Ps28CustomDebugStringConvertible", "NSURL"]
-- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
 - !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "UIInterfaceOrientation"]
 - !private ["Ps28CustomDebugStringConvertible", "UITapGestureRecognizer"]
@@ -266,6 +268,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "text"]
 - ["Ps28CustomDebugStringConvertible", "throwEventDetected"]
 - ["Ps28CustomDebugStringConvertible", "totalScore"]
+- !private ["Ps28CustomDebugStringConvertible", "userName"]
 - ["Ps28CustomDebugStringConvertible", "usernameField"]
 - ["Ps28CustomDebugStringConvertible", "videoCamera"]
 - ["Ps28CustomDebugStringConvertible", "videoView"]
@@ -330,6 +333,7 @@ depends-member:
 - !private ["Ps23CustomStringConvertible", "text"]
 - ["Ps23CustomStringConvertible", "throwEventDetected"]
 - ["Ps23CustomStringConvertible", "totalScore"]
+- !private ["Ps23CustomStringConvertible", "userName"]
 - ["Ps23CustomStringConvertible", "usernameField"]
 - ["Ps23CustomStringConvertible", "videoCamera"]
 - ["Ps23CustomStringConvertible", "videoView"]
@@ -396,6 +400,7 @@ depends-member:
 - !private ["Ps9Equatable", "text"]
 - ["Ps9Equatable", "throwEventDetected"]
 - ["Ps9Equatable", "totalScore"]
+- !private ["Ps9Equatable", "userName"]
 - ["Ps9Equatable", "usernameField"]
 - !private ["Ps9Equatable", "value"]
 - ["Ps9Equatable", "videoCamera"]
@@ -493,6 +498,7 @@ depends-member:
 - !private ["Ps8Hashable", "text"]
 - ["Ps8Hashable", "throwEventDetected"]
 - ["Ps8Hashable", "totalScore"]
+- !private ["Ps8Hashable", "userName"]
 - ["Ps8Hashable", "usernameField"]
 - ["Ps8Hashable", "videoCamera"]
 - ["Ps8Hashable", "videoView"]
@@ -556,6 +562,7 @@ depends-member:
 - !private ["PSo8NSCoding", "text"]
 - ["PSo8NSCoding", "throwEventDetected"]
 - ["PSo8NSCoding", "totalScore"]
+- !private ["PSo8NSCoding", "userName"]
 - ["PSo8NSCoding", "usernameField"]
 - ["PSo8NSCoding", "videoCamera"]
 - ["PSo8NSCoding", "videoView"]
@@ -602,6 +609,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "stopButton"]
 - ["PSo26NSExtensionRequestHandling", "throwEventDetected"]
 - ["PSo26NSExtensionRequestHandling", "totalScore"]
+- !private ["PSo26NSExtensionRequestHandling", "userName"]
 - ["PSo26NSExtensionRequestHandling", "usernameField"]
 - ["PSo26NSExtensionRequestHandling", "videoCamera"]
 - ["PSo26NSExtensionRequestHandling", "videoView"]
@@ -673,6 +681,7 @@ depends-member:
 - !private ["CSo8NSObject", "text"]
 - ["CSo8NSObject", "throwEventDetected"]
 - ["CSo8NSObject", "totalScore"]
+- !private ["CSo8NSObject", "userName"]
 - ["CSo8NSObject", "usernameField"]
 - ["CSo8NSObject", "videoCamera"]
 - ["CSo8NSObject", "videoView"]
@@ -733,6 +742,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "text"]
 - ["PSo16NSObjectProtocol", "throwEventDetected"]
 - ["PSo16NSObjectProtocol", "totalScore"]
+- !private ["PSo16NSObjectProtocol", "userName"]
 - ["PSo16NSObjectProtocol", "usernameField"]
 - ["PSo16NSObjectProtocol", "videoCamera"]
 - ["PSo16NSObjectProtocol", "videoView"]
@@ -743,12 +753,13 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "stringByReplacingOccurrencesOfString"]
 - !private ["CSo8NSString", "stringByReplacingOccurrencesOfString"]
 - !private ["CSo5NSURL", "init"]
-- !private ["Ps21NilLiteralConvertible", "Some"]
-- !private ["Sq", "Some"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
 - !private ["Sq", "deinit"]
 - !private ["Ps16OutputStreamType", "init"]
 - !private ["Ps16OutputStreamType", "stringByReplacingOccurrencesOfString"]
 - !private ["C7Junking20QRCodeViewController", "score"]
+- !private ["C7Junking20QRCodeViewController", "userName"]
 - !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
 - ["Ps16RawRepresentable", "Back"]
 - !private ["Ps16RawRepresentable", "Portrait"]
@@ -822,6 +833,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "text"]
 - ["PSo21UIAppearanceContainer", "throwEventDetected"]
 - ["PSo21UIAppearanceContainer", "totalScore"]
+- !private ["PSo21UIAppearanceContainer", "userName"]
 - ["PSo21UIAppearanceContainer", "usernameField"]
 - ["PSo21UIAppearanceContainer", "videoCamera"]
 - ["PSo21UIAppearanceContainer", "videoView"]
@@ -866,6 +878,7 @@ depends-member:
 - ["PSo18UIContentContainer", "stopButton"]
 - ["PSo18UIContentContainer", "throwEventDetected"]
 - ["PSo18UIContentContainer", "totalScore"]
+- !private ["PSo18UIContentContainer", "userName"]
 - ["PSo18UIContentContainer", "usernameField"]
 - ["PSo18UIContentContainer", "videoCamera"]
 - ["PSo18UIContentContainer", "videoView"]
@@ -928,6 +941,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "text"]
 - ["PSo18UIFocusEnvironment", "throwEventDetected"]
 - ["PSo18UIFocusEnvironment", "totalScore"]
+- !private ["PSo18UIFocusEnvironment", "userName"]
 - ["PSo18UIFocusEnvironment", "usernameField"]
 - ["PSo18UIFocusEnvironment", "videoCamera"]
 - ["PSo18UIFocusEnvironment", "videoView"]
@@ -990,6 +1004,7 @@ depends-member:
 - !private ["CSo11UIResponder", "text"]
 - ["CSo11UIResponder", "throwEventDetected"]
 - ["CSo11UIResponder", "totalScore"]
+- !private ["CSo11UIResponder", "userName"]
 - ["CSo11UIResponder", "usernameField"]
 - ["CSo11UIResponder", "videoCamera"]
 - ["CSo11UIResponder", "videoView"]
@@ -1033,6 +1048,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "stopButton"]
 - ["PSo16UIStateRestoring", "throwEventDetected"]
 - ["PSo16UIStateRestoring", "totalScore"]
+- !private ["PSo16UIStateRestoring", "userName"]
 - ["PSo16UIStateRestoring", "usernameField"]
 - ["PSo16UIStateRestoring", "videoCamera"]
 - ["PSo16UIStateRestoring", "videoView"]
@@ -1088,6 +1104,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "text"]
 - ["PSo18UITraitEnvironment", "throwEventDetected"]
 - ["PSo18UITraitEnvironment", "totalScore"]
+- !private ["PSo18UITraitEnvironment", "userName"]
 - ["PSo18UITraitEnvironment", "usernameField"]
 - ["PSo18UITraitEnvironment", "videoCamera"]
 - ["PSo18UITraitEnvironment", "videoView"]
@@ -1148,6 +1165,7 @@ depends-member:
 - ["CSo16UIViewController", "stopButton"]
 - ["CSo16UIViewController", "throwEventDetected"]
 - ["CSo16UIViewController", "totalScore"]
+- !private ["CSo16UIViewController", "userName"]
 - ["CSo16UIViewController", "usernameField"]
 - ["CSo16UIViewController", "videoCamera"]
 - ["CSo16UIViewController", "videoView"]
@@ -1236,7 +1254,7 @@ depends-member:
 - !private ["Vs26_OptionalNilComparisonType", "deinit"]
 - !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
 - !private ["Ps12_Reflectable", "IntegerLiteralType"]
-- !private ["Ps12_Reflectable", "Some"]
+- ["Ps12_Reflectable", "Some"]
 - !private ["Ps12_Reflectable", "Stride"]
 - !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["Ps12_Reflectable", "addGestureRecognizer"]
@@ -1294,8 +1312,8 @@ depends-nominal:
 - !private "PSo14NSSecureCoding"
 - !private "CSo8NSString"
 - !private "CSo5NSURL"
-- !private "Ps21NilLiteralConvertible"
-- !private "Sq"
+- "Ps21NilLiteralConvertible"
+- "Sq"
 - !private "Ps16OutputStreamType"
 - !private "C7Junking20QRCodeViewController"
 - !private "Ps21RandomAccessIndexType"

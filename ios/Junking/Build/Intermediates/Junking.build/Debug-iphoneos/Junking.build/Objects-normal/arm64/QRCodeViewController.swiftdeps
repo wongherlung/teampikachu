@@ -6,24 +6,27 @@ provides-nominal:
 provides-member:
 - ["C7Junking20QRCodeViewController", ""]
 provides-dynamic-lookup:
-- "QRImageView"
+- "userName"
 - "viewDidLoad"
 - "score"
+- "QRImageView"
 depends-top-level:
+- "StringLiteralType"
 - "AVAudioPlayer"
-- !private "BooleanLiteralType"
-- "CIImage"
-- !private "NSBundle"
-- !private "UIImage"
-- !private "NSURL"
-- !private "NSISOLatin1StringEncoding"
-- !private "StringLiteralType"
-- "QRCodeViewController"
-- !private "UnicodeScalarType"
-- !private "CIFilter"
 - "Int"
+- !private "NSISOLatin1StringEncoding"
+- !private "UnicodeScalarType"
+- !private "NSURL"
+- !private "+"
+- !private "UIImage"
+- !private "NSBundle"
+- "CIImage"
+- "String"
+- !private "BooleanLiteralType"
 - "UIImageView"
+- "QRCodeViewController"
 - "UIViewController"
+- !private "CIFilter"
 depends-member:
 - !private ["CSo13AVAudioPlayer", "init"]
 - !private ["CSo13AVAudioPlayer", "numberOfLoops"]
@@ -36,6 +39,7 @@ depends-member:
 - !private ["Ps9AnyObject", "NSISOLatin1StringEncoding"]
 - !private ["Ps9AnyObject", "NSURL"]
 - ["Ps9AnyObject", "QRImageView"]
+- !private ["Ps9AnyObject", "String"]
 - !private ["Ps9AnyObject", "UIImage"]
 - !private ["Ps9AnyObject", "dataUsingEncoding"]
 - !private ["Ps9AnyObject", "deinit"]
@@ -53,8 +57,11 @@ depends-member:
 - ["Ps9AnyObject", "qrcodeImage"]
 - ["Ps9AnyObject", "score"]
 - !private ["Ps9AnyObject", "setValue"]
+- ["Ps9AnyObject", "userName"]
 - ["Ps9AnyObject", "viewDidLoad"]
 - ["Ps9AnyObject", ""]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["CSo8CIFilter", "init"]
 - !private ["CSo8CIFilter", "outputImage"]
 - !private ["CSo8CIFilter", "setValue"]
@@ -62,10 +69,12 @@ depends-member:
 - !private ["Ps11CVarArgType", "AVAudioPlayer"]
 - !private ["Ps11CVarArgType", "CIFilter"]
 - ["Ps11CVarArgType", "CIImage"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
 - !private ["Ps11CVarArgType", "NSBundle"]
 - !private ["Ps11CVarArgType", "NSISOLatin1StringEncoding"]
 - !private ["Ps11CVarArgType", "NSURL"]
 - ["Ps11CVarArgType", "QRImageView"]
+- !private ["Ps11CVarArgType", "String"]
 - !private ["Ps11CVarArgType", "UIImage"]
 - !private ["Ps11CVarArgType", "dataUsingEncoding"]
 - !private ["Ps11CVarArgType", "image"]
@@ -82,9 +91,12 @@ depends-member:
 - ["Ps11CVarArgType", "qrcodeImage"]
 - ["Ps11CVarArgType", "score"]
 - !private ["Ps11CVarArgType", "setValue"]
+- ["Ps11CVarArgType", "userName"]
 - ["Ps11CVarArgType", "viewDidLoad"]
 - ["Ps11CVarArgType", ""]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
 - !private ["Ps10Comparable", "dataUsingEncoding"]
+- !private ["Ps10Comparable", "init"]
 - !private ["Ps28CustomDebugStringConvertible", "AVAudioPlayer"]
 - !private ["Ps28CustomDebugStringConvertible", "CIFilter"]
 - ["Ps28CustomDebugStringConvertible", "CIImage"]
@@ -92,6 +104,7 @@ depends-member:
 - !private ["Ps28CustomDebugStringConvertible", "NSISOLatin1StringEncoding"]
 - !private ["Ps28CustomDebugStringConvertible", "NSURL"]
 - ["Ps28CustomDebugStringConvertible", "QRImageView"]
+- !private ["Ps28CustomDebugStringConvertible", "String"]
 - !private ["Ps28CustomDebugStringConvertible", "UIImage"]
 - !private ["Ps28CustomDebugStringConvertible", "dataUsingEncoding"]
 - !private ["Ps28CustomDebugStringConvertible", "image"]
@@ -108,15 +121,18 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "qrcodeImage"]
 - ["Ps28CustomDebugStringConvertible", "score"]
 - !private ["Ps28CustomDebugStringConvertible", "setValue"]
+- ["Ps28CustomDebugStringConvertible", "userName"]
 - ["Ps28CustomDebugStringConvertible", "viewDidLoad"]
 - ["Ps28CustomDebugStringConvertible", ""]
 - !private ["Ps23CustomStringConvertible", "AVAudioPlayer"]
 - !private ["Ps23CustomStringConvertible", "CIFilter"]
 - ["Ps23CustomStringConvertible", "CIImage"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["Ps23CustomStringConvertible", "NSBundle"]
 - !private ["Ps23CustomStringConvertible", "NSISOLatin1StringEncoding"]
 - !private ["Ps23CustomStringConvertible", "NSURL"]
 - ["Ps23CustomStringConvertible", "QRImageView"]
+- !private ["Ps23CustomStringConvertible", "String"]
 - !private ["Ps23CustomStringConvertible", "UIImage"]
 - !private ["Ps23CustomStringConvertible", "dataUsingEncoding"]
 - !private ["Ps23CustomStringConvertible", "image"]
@@ -133,15 +149,18 @@ depends-member:
 - ["Ps23CustomStringConvertible", "qrcodeImage"]
 - ["Ps23CustomStringConvertible", "score"]
 - !private ["Ps23CustomStringConvertible", "setValue"]
+- ["Ps23CustomStringConvertible", "userName"]
 - ["Ps23CustomStringConvertible", "viewDidLoad"]
 - ["Ps23CustomStringConvertible", ""]
 - !private ["Ps9Equatable", "AVAudioPlayer"]
 - !private ["Ps9Equatable", "CIFilter"]
 - ["Ps9Equatable", "CIImage"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
 - !private ["Ps9Equatable", "NSBundle"]
 - !private ["Ps9Equatable", "NSISOLatin1StringEncoding"]
 - !private ["Ps9Equatable", "NSURL"]
 - ["Ps9Equatable", "QRImageView"]
+- !private ["Ps9Equatable", "String"]
 - !private ["Ps9Equatable", "UIImage"]
 - !private ["Ps9Equatable", "dataUsingEncoding"]
 - !private ["Ps9Equatable", "image"]
@@ -158,16 +177,21 @@ depends-member:
 - ["Ps9Equatable", "qrcodeImage"]
 - ["Ps9Equatable", "score"]
 - !private ["Ps9Equatable", "setValue"]
+- ["Ps9Equatable", "userName"]
 - ["Ps9Equatable", "viewDidLoad"]
 - ["Ps9Equatable", ""]
 - !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "AVAudioPlayer"]
 - !private ["Ps8Hashable", "CIFilter"]
 - ["Ps8Hashable", "CIImage"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
 - !private ["Ps8Hashable", "NSBundle"]
 - !private ["Ps8Hashable", "NSISOLatin1StringEncoding"]
 - !private ["Ps8Hashable", "NSURL"]
 - ["Ps8Hashable", "QRImageView"]
+- !private ["Ps8Hashable", "String"]
 - !private ["Ps8Hashable", "UIImage"]
 - !private ["Ps8Hashable", "dataUsingEncoding"]
 - !private ["Ps8Hashable", "image"]
@@ -184,9 +208,17 @@ depends-member:
 - ["Ps8Hashable", "qrcodeImage"]
 - ["Ps8Hashable", "score"]
 - !private ["Ps8Hashable", "setValue"]
+- ["Ps8Hashable", "userName"]
 - ["Ps8Hashable", "viewDidLoad"]
 - ["Ps8Hashable", ""]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
 - !private ["Ps14MirrorPathType", "dataUsingEncoding"]
+- !private ["Ps14MirrorPathType", "init"]
 - !private ["CSo8NSBundle", "mainBundle"]
 - !private ["CSo8NSBundle", "pathForResource"]
 - !private ["PSo8NSCoding", "AVAudioPlayer"]
@@ -196,6 +228,7 @@ depends-member:
 - !private ["PSo8NSCoding", "NSISOLatin1StringEncoding"]
 - !private ["PSo8NSCoding", "NSURL"]
 - ["PSo8NSCoding", "QRImageView"]
+- !private ["PSo8NSCoding", "String"]
 - !private ["PSo8NSCoding", "UIImage"]
 - !private ["PSo8NSCoding", "dataUsingEncoding"]
 - !private ["PSo8NSCoding", "image"]
@@ -207,6 +240,7 @@ depends-member:
 - ["PSo8NSCoding", "qrcodeImage"]
 - ["PSo8NSCoding", "score"]
 - !private ["PSo8NSCoding", "setValue"]
+- ["PSo8NSCoding", "userName"]
 - ["PSo8NSCoding", "viewDidLoad"]
 - ["PSo8NSCoding", ""]
 - !private ["PSo9NSCopying", "dataUsingEncoding"]
@@ -220,6 +254,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "NSISOLatin1StringEncoding"]
 - !private ["PSo26NSExtensionRequestHandling", "NSURL"]
 - ["PSo26NSExtensionRequestHandling", "QRImageView"]
+- !private ["PSo26NSExtensionRequestHandling", "String"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "initQRCodeView"]
@@ -227,6 +262,7 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "playJackpotSound"]
 - ["PSo26NSExtensionRequestHandling", "qrcodeImage"]
 - ["PSo26NSExtensionRequestHandling", "score"]
+- ["PSo26NSExtensionRequestHandling", "userName"]
 - ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
 - ["PSo26NSExtensionRequestHandling", ""]
 - !private ["PSo16NSMutableCopying", "dataUsingEncoding"]
@@ -238,6 +274,7 @@ depends-member:
 - !private ["CSo8NSObject", "NSISOLatin1StringEncoding"]
 - !private ["CSo8NSObject", "NSURL"]
 - ["CSo8NSObject", "QRImageView"]
+- ["CSo8NSObject", "String"]
 - !private ["CSo8NSObject", "UIImage"]
 - ["CSo8NSObject", "UIImageView"]
 - !private ["CSo8NSObject", "dataUsingEncoding"]
@@ -255,6 +292,7 @@ depends-member:
 - ["CSo8NSObject", "qrcodeImage"]
 - ["CSo8NSObject", "score"]
 - !private ["CSo8NSObject", "setValue"]
+- ["CSo8NSObject", "userName"]
 - ["CSo8NSObject", "viewDidLoad"]
 - !private ["PSo16NSObjectProtocol", "AVAudioPlayer"]
 - !private ["PSo16NSObjectProtocol", "CIFilter"]
@@ -263,6 +301,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "NSISOLatin1StringEncoding"]
 - !private ["PSo16NSObjectProtocol", "NSURL"]
 - ["PSo16NSObjectProtocol", "QRImageView"]
+- !private ["PSo16NSObjectProtocol", "String"]
 - !private ["PSo16NSObjectProtocol", "UIImage"]
 - !private ["PSo16NSObjectProtocol", "dataUsingEncoding"]
 - !private ["PSo16NSObjectProtocol", "image"]
@@ -279,6 +318,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "qrcodeImage"]
 - ["PSo16NSObjectProtocol", "score"]
 - !private ["PSo16NSObjectProtocol", "setValue"]
+- ["PSo16NSObjectProtocol", "userName"]
 - ["PSo16NSObjectProtocol", "viewDidLoad"]
 - ["PSo16NSObjectProtocol", ""]
 - !private ["PSo14NSSecureCoding", "dataUsingEncoding"]
@@ -289,6 +329,7 @@ depends-member:
 - !private ["CSo5NSURL", "init"]
 - !private ["Sq", "deinit"]
 - !private ["Ps16OutputStreamType", "dataUsingEncoding"]
+- !private ["Ps16OutputStreamType", "init"]
 - ["C7Junking20QRCodeViewController", "AVAudioPlayer"]
 - !private ["C7Junking20QRCodeViewController", "CIFilter"]
 - ["C7Junking20QRCodeViewController", "CIImage"]
@@ -297,6 +338,7 @@ depends-member:
 - !private ["C7Junking20QRCodeViewController", "NSISOLatin1StringEncoding"]
 - !private ["C7Junking20QRCodeViewController", "NSURL"]
 - ["C7Junking20QRCodeViewController", "QRImageView"]
+- ["C7Junking20QRCodeViewController", "String"]
 - !private ["C7Junking20QRCodeViewController", "UIImage"]
 - ["C7Junking20QRCodeViewController", "UIImageView"]
 - ["C7Junking20QRCodeViewController", "deinit"]
@@ -306,12 +348,21 @@ depends-member:
 - !private ["C7Junking20QRCodeViewController", "playJackpotSound"]
 - !private ["C7Junking20QRCodeViewController", "qrcodeImage"]
 - ["C7Junking20QRCodeViewController", "score"]
+- ["C7Junking20QRCodeViewController", "userName"]
 - ["C7Junking20QRCodeViewController", "viewDidLoad"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
 - !private ["Ps10Streamable", "dataUsingEncoding"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
 - !private ["SS", "dataUsingEncoding"]
 - !private ["SS", "deinit"]
+- !private ["SS", "init"]
 - !private ["Ps30StringInterpolationConvertible", "dataUsingEncoding"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
 - !private ["Ps24StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps24StringLiteralConvertible", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "image"]
 - !private ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo12UIAppearance", "image"]
@@ -322,6 +373,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "NSISOLatin1StringEncoding"]
 - !private ["PSo21UIAppearanceContainer", "NSURL"]
 - ["PSo21UIAppearanceContainer", "QRImageView"]
+- !private ["PSo21UIAppearanceContainer", "String"]
 - !private ["PSo21UIAppearanceContainer", "UIImage"]
 - !private ["PSo21UIAppearanceContainer", "image"]
 - ["PSo21UIAppearanceContainer", "init"]
@@ -330,6 +382,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "playJackpotSound"]
 - ["PSo21UIAppearanceContainer", "qrcodeImage"]
 - ["PSo21UIAppearanceContainer", "score"]
+- ["PSo21UIAppearanceContainer", "userName"]
 - ["PSo21UIAppearanceContainer", "viewDidLoad"]
 - ["PSo21UIAppearanceContainer", ""]
 - !private ["PSo18UIContentContainer", "AVAudioPlayer"]
@@ -339,6 +392,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "NSISOLatin1StringEncoding"]
 - !private ["PSo18UIContentContainer", "NSURL"]
 - ["PSo18UIContentContainer", "QRImageView"]
+- !private ["PSo18UIContentContainer", "String"]
 - !private ["PSo18UIContentContainer", "UIImage"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "initQRCodeView"]
@@ -346,6 +400,7 @@ depends-member:
 - ["PSo18UIContentContainer", "playJackpotSound"]
 - ["PSo18UIContentContainer", "qrcodeImage"]
 - ["PSo18UIContentContainer", "score"]
+- ["PSo18UIContentContainer", "userName"]
 - ["PSo18UIContentContainer", "viewDidLoad"]
 - ["PSo18UIContentContainer", ""]
 - !private ["PSo17UICoordinateSpace", "image"]
@@ -357,6 +412,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "NSISOLatin1StringEncoding"]
 - !private ["PSo18UIFocusEnvironment", "NSURL"]
 - ["PSo18UIFocusEnvironment", "QRImageView"]
+- !private ["PSo18UIFocusEnvironment", "String"]
 - !private ["PSo18UIFocusEnvironment", "UIImage"]
 - !private ["PSo18UIFocusEnvironment", "image"]
 - ["PSo18UIFocusEnvironment", "init"]
@@ -365,6 +421,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "playJackpotSound"]
 - ["PSo18UIFocusEnvironment", "qrcodeImage"]
 - ["PSo18UIFocusEnvironment", "score"]
+- ["PSo18UIFocusEnvironment", "userName"]
 - ["PSo18UIFocusEnvironment", "viewDidLoad"]
 - ["PSo18UIFocusEnvironment", ""]
 - !private ["CSo7UIImage", "init"]
@@ -377,6 +434,7 @@ depends-member:
 - !private ["CSo11UIResponder", "NSISOLatin1StringEncoding"]
 - !private ["CSo11UIResponder", "NSURL"]
 - ["CSo11UIResponder", "QRImageView"]
+- ["CSo11UIResponder", "String"]
 - !private ["CSo11UIResponder", "UIImage"]
 - ["CSo11UIResponder", "UIImageView"]
 - !private ["CSo11UIResponder", "image"]
@@ -386,6 +444,7 @@ depends-member:
 - ["CSo11UIResponder", "playJackpotSound"]
 - ["CSo11UIResponder", "qrcodeImage"]
 - ["CSo11UIResponder", "score"]
+- ["CSo11UIResponder", "userName"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - !private ["PSo16UIStateRestoring", "AVAudioPlayer"]
 - !private ["PSo16UIStateRestoring", "CIFilter"]
@@ -394,6 +453,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "NSISOLatin1StringEncoding"]
 - !private ["PSo16UIStateRestoring", "NSURL"]
 - ["PSo16UIStateRestoring", "QRImageView"]
+- !private ["PSo16UIStateRestoring", "String"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "initQRCodeView"]
@@ -401,6 +461,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "playJackpotSound"]
 - ["PSo16UIStateRestoring", "qrcodeImage"]
 - ["PSo16UIStateRestoring", "score"]
+- ["PSo16UIStateRestoring", "userName"]
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", ""]
 - !private ["PSo18UITraitEnvironment", "AVAudioPlayer"]
@@ -410,6 +471,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "NSISOLatin1StringEncoding"]
 - !private ["PSo18UITraitEnvironment", "NSURL"]
 - ["PSo18UITraitEnvironment", "QRImageView"]
+- !private ["PSo18UITraitEnvironment", "String"]
 - !private ["PSo18UITraitEnvironment", "UIImage"]
 - !private ["PSo18UITraitEnvironment", "image"]
 - ["PSo18UITraitEnvironment", "init"]
@@ -418,6 +480,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "playJackpotSound"]
 - ["PSo18UITraitEnvironment", "qrcodeImage"]
 - ["PSo18UITraitEnvironment", "score"]
+- ["PSo18UITraitEnvironment", "userName"]
 - ["PSo18UITraitEnvironment", "viewDidLoad"]
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "image"]
@@ -429,6 +492,7 @@ depends-member:
 - !private ["CSo16UIViewController", "NSISOLatin1StringEncoding"]
 - !private ["CSo16UIViewController", "NSURL"]
 - ["CSo16UIViewController", "QRImageView"]
+- ["CSo16UIViewController", "String"]
 - !private ["CSo16UIViewController", "UIImage"]
 - ["CSo16UIViewController", "UIImageView"]
 - ["CSo16UIViewController", "init"]
@@ -437,22 +501,39 @@ depends-member:
 - ["CSo16UIViewController", "playJackpotSound"]
 - ["CSo16UIViewController", "qrcodeImage"]
 - ["CSo16UIViewController", "score"]
+- ["CSo16UIViewController", "userName"]
 - ["CSo16UIViewController", "viewDidLoad"]
 - ["CSo16UIViewController", ""]
 - !private ["Ps31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["Ps32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
 - !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
 - !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["Ps32_FileReferenceLiteralConvertible", "init"]
 - !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
 - !private ["Ps21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
 - !private ["Ps12_Reflectable", "dataUsingEncoding"]
 - !private ["Ps12_Reflectable", "image"]
 - !private ["Ps12_Reflectable", "init"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
 depends-nominal:
 - !private "CSo13AVAudioPlayer"
 - "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
 - !private "CSo8CIFilter"
 - "CSo7CIImage"
 - "Ps11CVarArgType"
@@ -461,7 +542,12 @@ depends-nominal:
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
 - !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps16ForwardIndexType"
 - "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
 - !private "Ps14MirrorPathType"
 - !private "CSo8NSBundle"
 - "PSo8NSCoding"
@@ -476,7 +562,11 @@ depends-nominal:
 - !private "Sq"
 - !private "Ps16OutputStreamType"
 - "C7Junking20QRCodeViewController"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
 - !private "Ps10Streamable"
+- !private "Ps10Strideable"
 - !private "SS"
 - !private "Ps30StringInterpolationConvertible"
 - !private "Ps24StringLiteralConvertible"
@@ -496,13 +586,19 @@ depends-nominal:
 - "CSo16UIViewController"
 - !private "Ps31UnicodeScalarLiteralConvertible"
 - !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
 - !private "Ps32_BuiltinStringLiteralConvertible"
 - !private "Ps37_BuiltinUTF16StringLiteralConvertible"
 - !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
 - !private "Ps32_FileReferenceLiteralConvertible"
 - !private "Ps24_ImageLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
 - !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
 - !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
@@ -684,4 +780,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
-interface-hash: "76b168f3a94c75fc44af04f73172c324"
+interface-hash: "b9f8cf383e8088a75f07bd62612adad9"
