@@ -11,7 +11,16 @@ class StatsController < ApplicationController
 		end
 
 		@recycled_products = product_arr
+
+		users_arr = Array.new 
+		for day in @dates
+			num = User.where('DATE(updated_at) = ?', day.to_date).pluck(:name)
+			users_arr.push(num.size) 
+		end
+		@num_users = users_arr
+
 		puts @dates
 		puts @recycled_products
+		puts @num_users
 	end
 end

@@ -18,6 +18,22 @@
   </div>
 </div>
 
+<div class="row">
+  <div class="col-xs-12">
+    <div class="box">
+      <div class="box-header">
+        <h3 class="box-title"></h3>
+      </div>
+      <!-- /.box-header -->
+      <div class="box-body">
+        <div id="myDivUsers"><!-- Plotly chart will be drawn inside this DIV --></div>
+      </div>
+      <!-- /.box-body -->
+    </div>
+    <!-- /.box -->
+  </div>
+</div>
+
 <% content_for :script do %>
 	<script type="text/javascript">
 		var trace1 = {
@@ -53,5 +69,41 @@
 		var data = [trace1];
 
 		Plotly.newPlot('myDiv', data, layout);
+	</script>
+
+	<script type="text/javascript">
+		var trace2 = {
+		  x: ['<%= @dates.join("','").html_safe %>'],
+		  y: <%= @num_users %>,
+		  type: 'scatter',
+		  marker: {
+		    color: 'rgb(234, 153, 153)',
+		    size: 12,
+		    line: {
+		      color: 'white',
+		      width: 0.5
+		    }
+		  },
+		};
+
+		var layout = {
+		  title: 'Number of people recycling products per day',
+		  xaxis: {
+			title: 'Date',
+			showgrid: true,
+			zeroline: false, 
+			autorange: true
+		  },
+		  yaxis: {
+			title: 'Number Of Recycled Products',
+			showline: false,
+			autorange: true
+		  }
+		};
+
+
+		var data = [trace2];
+
+		Plotly.newPlot('myDivUsers', data, layout);
 	</script>
 <% end %>
