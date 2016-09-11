@@ -1,12 +1,12 @@
 class StatsController < ApplicationController
 	def index
-		@dates = User.pluck(:created_at).map{ |n| n.to_date.strftime("%d %b %Y") }.uniq
+		@dates = User.pluck(:updated_at).map{ |n| n.to_date.strftime("%d %b %Y") }.uniq
 		
 		# for each date 
 		# 	sum recycled_product in that date 
 		product_arr = Array.new 
 		for day in @dates
-			products = User.where('DATE(created_at) = ?', day.to_date).pluck(:recycled_product)
+			products = User.where('DATE(updated_at) = ?', day.to_date).pluck(:recycled_product)
 			product_arr.push(products.sum) 
 		end
 
