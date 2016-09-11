@@ -18,7 +18,7 @@
   </div>
 </div>
 
-<% content_for :plotlyjs do %>
+<% content_for :script do %>
 	<script type="text/javascript">
 		var trace1 = {
 		  x: ['<%= @dates.join("','").html_safe %>'],

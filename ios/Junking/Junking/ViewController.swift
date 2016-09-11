@@ -12,6 +12,7 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue) {}
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var scoreLabel: UILabel!
     private let videoCamera = GPUImageVideoCamera(sessionPreset: AVCaptureSessionPreset640x480,
@@ -39,6 +40,14 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if (segue.identifier == "showQRCodeView") {
+            let qrView = segue.destinationViewController as! QRCodeViewController;
+            qrView.score = totalScore
+            
+        }
     }
     
     func dismissKeyboard() {

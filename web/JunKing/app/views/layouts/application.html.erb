@@ -13,7 +13,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -115,11 +114,11 @@ desired effect
 </div>
 <!-- ./wrapper -->
 
-  <%= yield :plotlyjs %>
-
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. Slimscroll is required when using the
      fixed layout. -->
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<%= yield :script %>
 </body>
 </html>

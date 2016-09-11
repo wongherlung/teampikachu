@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oT0jFg8iqhS2dE6N8I7vz4qwXF4=
+			DLrSZBOt4Gn9QORu15A59mANqMM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -44,7 +44,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MDrKFvFWroTb0+KEbQShBcoBvo4=
+			CMhyWJ0oS0h1kQDMZJlOe4nkKes=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,14 +53,32 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4KTRNluNTu9UOUOiKKBpITNAfPQ=
+			iygsG3hOZ91bSdEkt0wK11IRFjw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-pjB-mD-A7L.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SF0pzFa1X4zfFrSgmibnsBp9FJA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/pjB-mD-A7L-view-SwL-Wj-sN1.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/y9b+DLeBaAVza3Df3AIhP5MXRo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/GPUImage.framework/GPUImage</key>
 		<data>
-		sB8TdWbhRR7FcvQ2/GGDKb8Ft+I=
+		TRfrl/eg2dMf/YoGu5F/OkxfJ6I=
 		</data>
 		<key>Frameworks/GPUImage.framework/Info.plist</key>
 		<data>
@@ -154,6 +172,10 @@
 		<data>
 		4giBq37zb87rDxIPwV8Qf0MiTlM=
 		</data>
+		<key>slot.wav</key>
+		<data>
+		hCQnGq+n/N5DlZRAuRfb1frZWsk=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -200,11 +222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oT0jFg8iqhS2dE6N8I7vz4qwXF4=
+			DLrSZBOt4Gn9QORu15A59mANqMM=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Yue5MbPbtAA3kxHKi3xkQQh3Bnv9Gm2HhmkKOx8RC8=
+			VLQIKG8BbZOad9vVIdsqpPdCMclYw9duHMaEEeH2kKA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -213,11 +235,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MDrKFvFWroTb0+KEbQShBcoBvo4=
+			CMhyWJ0oS0h1kQDMZJlOe4nkKes=
 			</data>
 			<key>hash2</key>
 			<data>
-			PpvapAjR62rl6Ym4E6hkTgpKmBICxTaQXeUqcpHmmqQ=
+			i1R9JiPJsN2eQa1yeFpDp8ztrackNdCK+5rOjqDhT6Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -226,11 +248,37 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4KTRNluNTu9UOUOiKKBpITNAfPQ=
+			iygsG3hOZ91bSdEkt0wK11IRFjw=
 			</data>
 			<key>hash2</key>
 			<data>
-			9j7WxlrSvcJeL+jBq58JSjOLelh6y3s0Q7AD5rxDVMM=
+			t+rSwBG5U0UnuE+WW3NHhCXTfr12UtfM6WTFIV85BHs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UIViewController-pjB-mD-A7L.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SF0pzFa1X4zfFrSgmibnsBp9FJA=
+			</data>
+			<key>hash2</key>
+			<data>
+			vZ/pcFkWaBE15vKxqkyx3xmxM0nLrZn/w/hBSNZ116s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/pjB-mD-A7L-view-SwL-Wj-sN1.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/y9b+DLeBaAVza3Df3AIhP5MXRo=
+			</data>
+			<key>hash2</key>
+			<data>
+			9/eWyylgyvzymH9+FLq9wJGopU5JJefYw8yPiwPmw9E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -239,11 +287,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sB8TdWbhRR7FcvQ2/GGDKb8Ft+I=
+			TRfrl/eg2dMf/YoGu5F/OkxfJ6I=
 			</data>
 			<key>hash2</key>
 			<data>
-			d+YmdAILEPR7786OJcWAgnrUstoKEQGV24D4KF2ZabY=
+			94ch/H/bVfNtlfCektfd7lA8WkD9nJeN8rDAbCaFkqI=
 			</data>
 		</dict>
 		<key>Frameworks/GPUImage.framework/Info.plist</key>
@@ -475,6 +523,17 @@
 			<key>hash2</key>
 			<data>
 			RQlE+rMV4aqJDsDEWIOSawPI6/vpQ3zMx5rSYRDR2ec=
+			</data>
+		</dict>
+		<key>slot.wav</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hCQnGq+n/N5DlZRAuRfb1frZWsk=
+			</data>
+			<key>hash2</key>
+			<data>
+			0uvwIRY3O3XolSuukJAZ9Np17Uc/PMp6fs9KQV8AQ7E=
 			</data>
 		</dict>
 	</dict>
